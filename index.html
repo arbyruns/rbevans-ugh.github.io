@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css"/>
+	<link rel="stylesheet" href="dist/css/tabulator.css">
+	<title>OM Matrix</title>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="dist/js/tabulator.min.js"></script>
+  </head>
+  <body>
+	  <div class="title">
+			<h1>Free Resources or Waived Fees Do to COVID-19</h1>
+		</div>
+	<div class="col-lg-1"></div>
+		<div id="tabulator-controls" class="table-controls  hidden-xs">
+			<i class="fa fa-filter fa-fw"></i>
+		</br>
+			<input class="filterbox" name="description" type="text" placeholder="Filter Table By Description">
+		</div>
+		<div id="tabulator-example"></div>
+	</div>
+<script type="text/javascript">
+	//define data
+	
+	var tabledata = [
+	{description:"Free Access to Spectrum Broadband and Wi-Fi Internet Free For 60 Days for households with students",website:"",type:"Phone and Internet"},
+	{description:"Charter will offer free Spectrum broadband and Wi-Fi access for 60 days to households with K-12 and/or college students who do not already have a Spectrum broadband subscription and at any service level up to 100 Mbps. To enroll call 1-844-488-8395. Installation fees will be waived for new student households.",website:"",type:"Phone and Internet"},
+	{description:"T-Mobile & Metro Active Customers: All current T-Mobile and Metro by T-Mobile customers who have plans with data will have unlimited smartphone data for the next 60 days (excluding roaming).",website:"https://www.t-mobile.com/news/t-mobile-update-on-covid-19-response?", type:"Phone and Internet"},
+	{description:"T-Mobile is offering all current customers unlimited data and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
+	{description:"Mint Mobile: New and existing customers can get Unlimited 4G LTE Data for free.",website:"https://www.mintmobile.com/unlimited/?",type:"Phone and Internet"},
+	{description:"AT&T: AT&T is suspending broadband data caps for home internet customers. They’re also waiving late fees for next 30-60 days. They’ll also provide free access to its public WiFi hot spots.",website:"https://www.theverge.com/2020/3/12/21177538/att-broadband-internet-data-cap-coronavirus-suspend",type:"Phone and Internet"},
+	{description:"Sprint is offering unlimited data for all users and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
+	{description:"Verizon: Verizon will waive late fees and keep residential and small business customers connected if negatively impacted by global crisis.",website:"https://www.verizon.com/about/news/verizon-help-customers-and-small-businesses",type:"Phone and Internet"},
+	{description:"Comcast/Xfinity: Comcast opens Xfinity WiFi Network Nationally for Free and Offers Unlimited Data for Free.",website:"https://corporate.comcast.com/covid-19",type:"Phone and Internet"},
+	{description:"Enterprise will waive underage fees for college students age 18-24.",website:"https://www.enterprise.com/en/car-rental/deals/young-driver.html",type:"Phone and Internet"},
+	{description:"Southwest: They always offer free flight changes so nothing changes for them. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
+	{description:"JetBlue: JetBlue has suspended change and cancel fees for all new flight bookings made between March 6, 2020 and March 31, 2020 for travel through September 8, 2020. The change/cancel fees suspension still applies for bookings made between February 27, 2020 and March 5, 2020 for travel through June 1, 2020.",website:"",type:"Major Domestic Airlines"},
+	{description:"Delta: No Change Fees For All Tickets Purchased Between March 1 to 31, 2020. Ticket Can Be Changed One-Time To An Alternate Itinerary. Must Be Re-issued On/Before: February 28, 2021. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
+	{description:"American Airlines: American Airlines will waive the change fee only on published Non-Refundable Fare tickets. Tickets must be purchased between March 1, 2020 and March 31, 2020, with original travel between March 1, 2020 and January 30, 2021. Changes must be made prior to the departure of your original flight. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
+	{description:"United: When you book a flight between March 3 and March 31, 2020, you can change it for free over the next 12 months. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
+	{description:"Planet Fitness is offering Free in-home workouts for everyone. Workouts will be led by trainers and surprise celebrity guests. If you miss the live class, you can come back and watch it later.",website:"",type:"Fitness"},
+	{description:"Peleton is offering an extended 90-day free trial to its at-home workouts application during the quarantine. The in-app workouts don’t require you own any Peloton equipment, and include yoga, HIIT, stretching, and other categories. Download the Peleton app for free in the App Store or Play Store.",website:"",type:"Fitness"},
+	{description:"Apple Card holders will be allowed to skip their March payment without incurring interest by signing up for a Customer Assistance Program, Apple is informing its customers. To join the Customer Assistance Program, Apple Card customers can call an Apple support rep directly through the Apple Wallet app and ask to be added.",website:"https://techcrunch.com/2020/03/16/you-can-ask-to-skip-your-apple-card-payment-for-march-apple-tells-customers/",type:"Credit Cards/Finance"},
+	{description:"American Express will waive 2 months of payments without charging penalties or interest. However, if you use this benefit, you won’t be able to use that credit card or points until you opt out.",website:"https://www.americanexpress.com/us/customer-service/financial-hardship.html",type:"Credit Cards/Finance"},
+	{description:"Chase and other banks will offer 60 days of no late fees or interest for those impacted by the quarantine, call your bank to find out if you are eligible and what terms will apply.",website:"https://www.chase.com/digital/resources/coronavirus?jp_cmp=rb/CV/off/stayconnected/na",type:"Credit Cards/Finance"},
+	{description:"Some leasing companies are offering to push off payments for 1 to 3 months. In return, they’ll extend your lease by that amount of time and have you pay regular payments then, essentially giving you an extra 1 to 3 months for free. Your max miles for the lease though will remain the same. Contact your auto see what they’re offering.",website:"",type:"Credit Cards/Finance"},
+	{description:"Chevrolet, Buick, GMC and Cadillac owners get free On-Star and free in vehicle internet",website:"https://www.onstar.com/us/en/onstar-cares/",type:"Credit Cards/Finance"},
+	{description:"Many states (New York included) and mortgage companies are offering 1 to 6 months of no mortgage payment requirements. Contact your mortgage provider to see what they’re offering and if you qualify.",website:"",type:"Credit Cards/Finance"},
+	{description:"Uber Eats will waive delivery fees on all orders amid the quarantine. Service charges will still apply though.",website:"https://www.cnet.com/news/uber-eats-waives-delivery-fees-amid-coronavirus-outbreak/",type:"Food / Misc"},
+	{description:"Starbucks will give a free tall hot or iced brewed coffee to anyone that identifies themselves as a front line responder from today through May 3rd",website:"",type:"Food / Misc"},
+	{description:"Crocs will be giving out 10,000 pairs of their shoes for FREE starting 3/26 12pm EST to healthcare workers.",website:"https://crocs-us.xkpq.net/G9V0B",type:"Food / Misc"},
+	{description:"Airbnb is offering free cancellations on most reservations",website:"https://news.airbnb.com/extenuating-circumstances-policy-activated-around-the-world/",type:"Food / Misc"},
+	{description:"CVS and Walgreens: Both CVS and Walgreens will waive charges for home delivery of prescription medicines",website:"(https://www.forbes.com/sites/brucejapsen/2020/03/12/walgreens-joins-cvs-waiving-drug-delivery-fees-amid-coronavirus-crisis/#7e3d647e51e3",type:"Food / Misc"},
+	{description:"Zoom Video is offering free video conferences for schools.",website:"https://zoom.us/docs/ent/school-verification.html",type:"Food / Misc"},
+	{description:"The New York Times",website:"https://www.nytimes.com/news-event/coronavirus",type:"No Paywalls"},
+	{description:"Wall Street Journal",website:"https://www.wsj.com/news/collection/coronavirus0312-256f2943",type:"No Paywalls"},
+	{description:"The Washington Post",website:"https://www.washingtonpost.com/coronavirus/",type:"No Paywalls"},
+	{description:"The Los Angeles Times",website:"https://www.latimes.com/california/liveblog/coronavirus-live-updates",type:"No Paywalls"},
+	{description:"The Guardian",website:"https://www.theguardian.com/world/coronavirus-outbreak",type:"No Paywalls"},
+	{description:"AP News",website:"https://apnews.com/",type:"No Paywalls"},
+	{description:"The Athletic",website:"https://theathletic.com/1669234/2020/03/16/covid-19-and-sports-latest-news-and-information-updated/",type:"No Paywalls"},
+	{description:"Scholastic has setup a “learn from home” website which will offer free daily courses for kids stuck at home because of school cancellations.",website:"https://classroommagazines.scholastic.com/support/learnathome.html",type:"Educational \ Fun Resources"},
+	{description:"Free Early Learning Academy for Kids from Pre-K to 2nd Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.abcmouse.com/Redeem",type:"Educational \ Fun Resources"},
+	{description:"Free Access to Reading IQ for Kids in Preschool through 6th Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.readingiq.com/redeem/",type:"Educational \ Fun Resources"},
+	{description:"Free Access to Academic Adventures for Kids in 3rd grade thru 8th grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.adventureacademy.com/redeem/",type:"Educational \ Fun Resources"},
+	{description:"Prodigy Math has free video game style math learning and questions.",website:"https://www.prodigygame.com/",type:"Educational \ Fun Resources"},
+	]
+
+    var table = new Tabulator("#tabulator-example", {
+      height:500,
+	  data:tabledata,
+      layout:"fitColumns",
+      responsiveLayout:"hide",
+      tooltips:true,
+	  addRowPos:"top",
+      history:true,
+      movableColumns:true,
+      resizableRows:true,
+      initialSort:[
+         {column:"description", dir:"asc"},,
+      ],
+      columns:[
+      {title:"Description", field:"description", minWidth:100, width:500, formatter:"textarea"},
+	  {title:"website", field:"website", width:500,align:"center", formatter:"link"},
+	  {title:"Type", field:"type", width:200,align:"center"},
+      ],
+    });
+
+    $("#tabulator-controls input[name=description]").on("keyup", function(){
+      table.setFilter( "description", "like", $(this).val())
+    });
+</script>
+<p>Hey Dawg this is for FHL 2020 mock & data may not be accurate.</p>
+</body>
+</html>

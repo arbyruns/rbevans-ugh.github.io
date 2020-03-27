@@ -1,0 +1,25 @@
+tabulator .tabulator-header{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+input[type="text" i] {
+    width: 600px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-left: 1%;
+}
+
+div#tabulator-controls{
+    /* margin-left: 50%; */
+}
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 79px;
+    margin-top: -63px;
+    border-bottom: 1.3px solid #ccc;
+}
