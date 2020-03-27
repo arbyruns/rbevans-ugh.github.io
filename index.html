@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="dist/css/style.css"/>
-	<link rel="stylesheet" href="dist/css/materialize/tabulator_materialize.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<!-- <link href="/dist/css/materialize/tabulator_materialize.min.css" rel="stylesheet"> -->
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/bootstrapfiles/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="dist/bootstrapfiles/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="dist/bootstrapfiles/starter-template.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <!-- Tabulator -->
+  <link rel="stylesheet" type="text/css" href="dist/css/style.css"/>
+  <link rel="stylesheet" href="dist/css/materialize/tabulator_materialize.css">
 	<title>COVID-19 Resources</title>
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -13,233 +31,266 @@
 	<script src="dist/js/tabulator.min.js"></script>
   </head>
   <body>
-	  <div class="title">
-			<h1>Free Resources or Waived Fees Do to COVID-19</h1>
-		</div>
-	<div class="col-lg-1"></div>
-		<div id="tabulator-controls" class="table-controls  hidden-xs">
-			<i class="fa fa-filter fa-fw"></i>
-		</br>
-			<input class="filterbox" name="description" type="text" placeholder="Filter Table By Description">
-		</div>
-		<div id="tabulator-example"></div>
-	</div>
-<script type="text/javascript">
-	//define data
-	
-	var tabledata = [
-	{description:"Free Access to Spectrum Broadband and Wi-Fi Internet Free For 60 Days for households with students",website:"",type:"Phone and Internet"},
-	{description:"Charter will offer free Spectrum broadband and Wi-Fi access for 60 days to households with K-12 and/or college students who do not already have a Spectrum broadband subscription and at any service level up to 100 Mbps. To enroll call 1-844-488-8395. Installation fees will be waived for new student households.",website:"",type:"Phone and Internet"},
-	{description:"T-Mobile & Metro Active Customers: All current T-Mobile and Metro by T-Mobile customers who have plans with data will have unlimited smartphone data for the next 60 days (excluding roaming).",website:"https://www.t-mobile.com/news/t-mobile-update-on-covid-19-response?", type:"Phone and Internet"},
-	{description:"T-Mobile is offering all current customers unlimited data and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
-	{description:"Mint Mobile: New and existing customers can get Unlimited 4G LTE Data for free.",website:"https://www.mintmobile.com/unlimited/?",type:"Phone and Internet"},
-	{description:"AT&T: AT&T is suspending broadband data caps for home internet customers. They’re also waiving late fees for next 30-60 days. They’ll also provide free access to its public WiFi hot spots.",website:"https://www.theverge.com/2020/3/12/21177538/att-broadband-internet-data-cap-coronavirus-suspend",type:"Phone and Internet"},
-	{description:"Sprint is offering unlimited data for all users and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
-	{description:"Verizon: Verizon will waive late fees and keep residential and small business customers connected if negatively impacted by global crisis.",website:"https://www.verizon.com/about/news/verizon-help-customers-and-small-businesses",type:"Phone and Internet"},
-	{description:"Comcast/Xfinity: Comcast opens Xfinity WiFi Network Nationally for Free and Offers Unlimited Data for Free.",website:"https://corporate.comcast.com/covid-19",type:"Phone and Internet"},
-	{description:"Enterprise will waive underage fees for college students age 18-24.",website:"https://www.enterprise.com/en/car-rental/deals/young-driver.html",type:"Phone and Internet"},
-	{description:"Southwest: They always offer free flight changes so nothing changes for them. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
-	{description:"JetBlue: JetBlue has suspended change and cancel fees for all new flight bookings made between March 6, 2020 and March 31, 2020 for travel through September 8, 2020. The change/cancel fees suspension still applies for bookings made between February 27, 2020 and March 5, 2020 for travel through June 1, 2020.",website:"",type:"Major Domestic Airlines"},
-	{description:"Delta: No Change Fees For All Tickets Purchased Between March 1 to 31, 2020. Ticket Can Be Changed One-Time To An Alternate Itinerary. Must Be Re-issued On/Before: February 28, 2021. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
-	{description:"American Airlines: American Airlines will waive the change fee only on published Non-Refundable Fare tickets. Tickets must be purchased between March 1, 2020 and March 31, 2020, with original travel between March 1, 2020 and January 30, 2021. Changes must be made prior to the departure of your original flight. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
-	{description:"United: When you book a flight between March 3 and March 31, 2020, you can change it for free over the next 12 months. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
-	{description:"Planet Fitness is offering Free in-home workouts for everyone. Workouts will be led by trainers and surprise celebrity guests. If you miss the live class, you can come back and watch it later.",website:"",type:"Fitness"},
-	{description:"Peleton is offering an extended 90-day free trial to its at-home workouts application during the quarantine. The in-app workouts don’t require you own any Peloton equipment, and include yoga, HIIT, stretching, and other categories. Download the Peleton app for free in the App Store or Play Store.",website:"",type:"Fitness"},
-	{description:"Apple Card holders will be allowed to skip their March payment without incurring interest by signing up for a Customer Assistance Program, Apple is informing its customers. To join the Customer Assistance Program, Apple Card customers can call an Apple support rep directly through the Apple Wallet app and ask to be added.",website:"https://techcrunch.com/2020/03/16/you-can-ask-to-skip-your-apple-card-payment-for-march-apple-tells-customers/",type:"Credit Cards/Finance"},
-	{description:"American Express will waive 2 months of payments without charging penalties or interest. However, if you use this benefit, you won’t be able to use that credit card or points until you opt out.",website:"https://www.americanexpress.com/us/customer-service/financial-hardship.html",type:"Credit Cards/Finance"},
-	{description:"Chase and other banks will offer 60 days of no late fees or interest for those impacted by the quarantine, call your bank to find out if you are eligible and what terms will apply.",website:"https://www.chase.com/digital/resources/coronavirus?jp_cmp=rb/CV/off/stayconnected/na",type:"Credit Cards/Finance"},
-	{description:"Some leasing companies are offering to push off payments for 1 to 3 months. In return, they’ll extend your lease by that amount of time and have you pay regular payments then, essentially giving you an extra 1 to 3 months for free. Your max miles for the lease though will remain the same. Contact your auto see what they’re offering.",website:"",type:"Credit Cards/Finance"},
-	{description:"Chevrolet, Buick, GMC and Cadillac owners get free On-Star and free in vehicle internet",website:"https://www.onstar.com/us/en/onstar-cares/",type:"Credit Cards/Finance"},
-	{description:"Many states (New York included) and mortgage companies are offering 1 to 6 months of no mortgage payment requirements. Contact your mortgage provider to see what they’re offering and if you qualify.",website:"",type:"Credit Cards/Finance"},
-	{description:"Uber Eats will waive delivery fees on all orders amid the quarantine. Service charges will still apply though.",website:"https://www.cnet.com/news/uber-eats-waives-delivery-fees-amid-coronavirus-outbreak/",type:"Food / Misc"},
-	{description:"Starbucks will give a free tall hot or iced brewed coffee to anyone that identifies themselves as a front line responder from today through May 3rd",website:"",type:"Food / Misc"},
-	{description:"Crocs will be giving out 10,000 pairs of their shoes for FREE starting 3/26 12pm EST to healthcare workers.",website:"https://crocs-us.xkpq.net/G9V0B",type:"Food / Misc"},
-	{description:"Airbnb is offering free cancellations on most reservations",website:"https://news.airbnb.com/extenuating-circumstances-policy-activated-around-the-world/",type:"Food / Misc"},
-	{description:"CVS and Walgreens: Both CVS and Walgreens will waive charges for home delivery of prescription medicines",website:"(https://www.forbes.com/sites/brucejapsen/2020/03/12/walgreens-joins-cvs-waiving-drug-delivery-fees-amid-coronavirus-crisis/#7e3d647e51e3",type:"Food / Misc"},
-	{description:"Zoom Video is offering free video conferences for schools.",website:"https://zoom.us/docs/ent/school-verification.html",type:"Food / Misc"},
-	{description:"The New York Times",website:"https://www.nytimes.com/news-event/coronavirus",type:"No Paywalls"},
-	{description:"Wall Street Journal",website:"https://www.wsj.com/news/collection/coronavirus0312-256f2943",type:"No Paywalls"},
-	{description:"The Washington Post",website:"https://www.washingtonpost.com/coronavirus/",type:"No Paywalls"},
-	{description:"The Los Angeles Times",website:"https://www.latimes.com/california/liveblog/coronavirus-live-updates",type:"No Paywalls"},
-	{description:"The Guardian",website:"https://www.theguardian.com/world/coronavirus-outbreak",type:"No Paywalls"},
-	{description:"AP News",website:"https://apnews.com/",type:"No Paywalls"},
-	{description:"The Athletic",website:"https://theathletic.com/1669234/2020/03/16/covid-19-and-sports-latest-news-and-information-updated/",type:"No Paywalls"},
-	{description:"Scholastic has setup a “learn from home” website which will offer free daily courses for kids stuck at home because of school cancellations.",website:"https://classroommagazines.scholastic.com/support/learnathome.html",type:"Educational \ Fun Resources"},
-	{description:"Free Early Learning Academy for Kids from Pre-K to 2nd Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.abcmouse.com/Redeem",type:"Educational \ Fun Resources"},
-	{description:"Free Access to Reading IQ for Kids in Preschool through 6th Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.readingiq.com/redeem/",type:"Educational \ Fun Resources"},
-	{description:"Free Access to Academic Adventures for Kids in 3rd grade thru 8th grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.adventureacademy.com/redeem/",type:"Educational \ Fun Resources"},
-	{description:"Prodigy Math has free video game style math learning and questions.",website:"https://www.prodigygame.com/",type:"Educational \ Fun Resources"},
-	{description:" Free access for 30 days that will be extended as long as schools are still closed",website:"https://go.brainpop.com/COVID19",type:"Educational \ Fun Resources"},
-	{description:"Hundreds of printable educational worksheets for free.",website:"https://www.worksheetfun.com/",type:"Educational \ Fun Resources"},
-	{description:"The San Diego Zoo has a website just for kids with amazing videos, activities, and games. Enjoy the tour!",website:"https://kids.sandiegozoo.org/",type:"Educational \ Fun Resources"},
-	{description:"Tour Yellowstone National Park!",website:"https://www.nps.gov/yell/learn/photosmultimedia/virtualtours.htm",type:"Educational \ Fun Resources"},
-	{description:"Explore the surface of Mars on the Curiosity Rover.",website:"https://accessmars.withgoogle.com/",type:"Educational \ Fun Resources"},
-	{description:"This Canadian site FarmFood 360 offers 11 Virtual Tours of farms from minks, pigs, and cows, to apples and eggs.",website:"https://www.farmfood360.ca/",type:"Educational \ Fun Resources"},
-	{description:"Indoor Activities for busy toddlers",website:"https://busytoddler.com/2020/03/indoor-activities/",type:"Educational \ Fun Resources"},
-	{description:"Play games and learn all about animals",website:"https://switchzoo.com/",type:"Educational \ Fun Resources"},
-	{description:"Play with fave show characters and learn too",website:"https://pbskids.org/",type:"Educational \ Fun Resources"},
-	{description:"Travel to Paris, France to see amazing works of art at The Louvre with this virtual field trip.",website:"https://www.louvre.fr/en/visites-en-ligne",type:"Educational \ Fun Resources"},
-	{description:"This Virtual Tour of the Great Wall of China is beautiful and makes history come to life.",website:"https://www.thechinaguide.com/destination/great-wall-of-china",type:"Educational \ Fun Resources"},
-	{description:"Math and Reading games",website:"https://www.funbrain.com/",type:"Educational \ Fun Resources"},
-	{description:"Phonics skills ",website:"https://www.starfall.com/h/",type:"Educational \ Fun Resources"},
-	{description:"Read, play games, and hang out with Dr. Seuss",website:"https://www.seussville.com/",type:"Educational \ Fun Resources"},
-	{description:"300,000+ FREE printable worksheets from toddlers to teens ",website:"https://www.123homeschool4me.com/home-school-free-printables/",type:"Educational \ Fun Resources"},
-	{description:"Geography and animals",website:"https://kids.nationalgeographic.com/",type:"Educational \ Fun Resources"},
-	{description:"Math practice from counting to algebra and geometry",website:"http://www.mathscore.com/",type:"Educational \ Fun Resources"},
-	{description:"Fave kids books read by famous people",website:"https://www.storylineonline.net/",type:"Educational \ Fun Resources"},
-	{description:"Crafts, activities, mazes, dot to dot, etc",website:"https://www.allkidsnetwork.com/",type:"Educational \ Fun Resources"},
-	{description:"High school chemistry topics",website:"https://www.acs.org/content/acs/en/education/resources/highschool/chemmatters/articles-by-topic.html",type:"Educational \ Fun Resources"},
-	{description:"Math and reading games",website:"https://www.abcya.com/",type:"Educational \ Fun Resources"},
-	{description:"Math and language games",website:"https://www.arcademics.com/",type:"Educational \ Fun Resources"},
-	{description:"Hands on Elem science videos",website:"https://www.backpacksciences.com/science-simplified",type:"Educational \ Fun Resources"},
-	{description:"Voice based learning… learn through Alexa",website:"https://bamboolearning.com/resources",type:"Educational \ Fun Resources"},
-	{description:"Fun games, recipes, crafts, activities ",website:"https://www.highlightskids.com/",type:"Educational \ Fun Resources"},
-	{description:"ClickSchooling brings you daily recommendations by email for entertaining websites that help your kids learn.",website:"https://clickschooling.com/",type:"Educational \ Fun Resources"},
-	{description:"Math as a fun part of your daily family routine",website:"http://bedtimemath.org/",type:"Educational \ Fun Resources"},
-	{description:"Games to get “into the book”",website:"https://reading.ecb.org/",type:"Educational \ Fun Resources"},
-	{description:"Online history classes for all ages preteen through adults",website:"https://school.bighistoryproject.com/bhplive",type:"Educational \ Fun Resources"},
-	{description:"Biology",website:"https://www.biologysimulations.com/",type:"Educational \ Fun Resources"},
-	{description:"Elem Math through 6th grade",website:"https://boddlelearning.com/",type:"Educational \ Fun Resources"},
-	{description:"Educational games K-12 ",website:"https://www.breakoutedu.com/funathome",type:"Educational \ Fun Resources"},
-	{description:"Digital archive of history",website:"https://www.bunkhistory.org/",type:"Educational \ Fun Resources"},
-	{description:"Test Prep for SAT, ACT, etc.",website:"https://www.bwseducationconsulting.com/handouts.php",type:"Educational \ Fun Resources"},
-	{description:"Geometry",website:"https://www.canfigureit.com/",type:"Educational \ Fun Resources"},
-	{description:"Resources for Spanish practice ",website:"https://www.difusion.com/campus/",type:"Educational \ Fun Resources"},
-	{description:"Music is for everyone ",website:"https://musiclab.chromeexperiments.com/Experiments",type:"Educational \ Fun Resources"},
-	{description:"Science, Math, Social Studies",website:"https://www.ck12.org/student/",type:"Educational \ Fun Resources"},
-	{description:"Grammar practice for middle grades",website:"https://www.classroomcereal.com/",type:"Educational \ Fun Resources"},
-	{description:"Daily free science or cooking experiment to do",website:"home.http://www.clubscikidzmd.com/blog/",type:"Educational \ Fun Resources"},
-	{description:"Chemistry",website:"https://www.playmadagames.com/",type:"Educational \ Fun Resources"},
-	{description:"Reading passages for grades 3-12, with reading comprehension and discussion questions.",website:"https://www.commonlit.org/",type:"Educational \ Fun Resources"},
-	{description:"Vocabulary, grammar, listening activities and games in Spanish, French, Italian, German, Portuguese, Korean, and Latin.",website:"https://conjuguemos.com/",type:"Educational \ Fun Resources"},
-	{description:"35,000 pages of online content on the cultures and countries of the world.",website:"https://www.countryreports.org/",type:"Educational \ Fun Resources"},
-	{description:"K-5th Science lessons",website:"https://mysteryscience.com/",type:"Educational \ Fun Resources"},
-	{description:"Tons of free classes from leading universities and companies",website:"https://www.coursera.org/",type:"Educational \ Fun Resources"},
-	{description:"Free printable K-8 Reading and Math activity packs (available in English and Spanish)",website:"https://www.curriculumassociates.com/supporting-students-away-from-school",type:"Educational \ Fun Resources"},
-	{description:"Digital learning content for preschool through high school",website:"https://www.curriki.org/",type:"Educational \ Fun Resources"},
-	{description:"A wide range of math content from middle school through AP Calculus.",website:"https://deltamath.com/overview",type:"Educational \ Fun Resources"},
-	{description:"Day-by-day projects to keep kids reading, thinking, and growing.",website:"https://classroommagazines.scholastic.com/support/learnathome.html",type:"Educational \ Fun Resources"},
-	{description:"3 Free Weeks of Maker Stations to keep your children creating at home! Each challenge includes simple instructions using materials around the house, QR code video resources, and a student recording sheet.",website:"bit.ly/freemakerstations",type:"Educational \ Fun Resources"},
-	{description:"Classes for older teens or adults ",website:"https://www.thegreatcoursesplus.com/lp/t1/freemo",type:"Educational \ Fun Resources"},
-	{description:"Online homeschool platform & curriculum for Pre-K to 12th grade. All main subjects are covered, plus extra curriculum courses.",website:"http://discoveryk12.com/dk12/",type:"Educational \ Fun Resources"},
-	{description:"Printable board games, activities and more for phonics and reading all using evidence-based methods. Can be customized to any student’s needs including creating flashcards for other subjects.",website:"https://dogonalogbooks.com/printables/",type:"Educational \ Fun Resources"},
-	{description:"K-8 online math program that looks at how a student is solving problems to adjust accordingly and build a unique learning path for them.",website:"https://www.dreambox.com/at-home",type:"Educational \ Fun Resources"},
-	{description:"Engaging reading game for grades 2-8 that combines strategy, engagement, and imaginative reading passages to create a fun, curriculum-aligned literacy game.",website:"https://www.squigglepark.com/dreamscape/",type:"Educational \ Fun Resources"},
-	{description:"Higher level math series… online video series with detailed solutions to more than a thousand publicly-released College Board SAT Math, Subject Test Math Level 1, and Subject Test Math Level 2 problems.",website:"https://www.youtube.com/channel/UCbQoCpvYRYRkRRvsObOPHaA?reload=9",type:"Educational \ Fun Resources"},
-	{description:"Foreign languages",website:"https://www.duolingo.com/",type:"Educational \ Fun Resources"},
-	{description:"Interactive video earth science based curriculum supplement.",website:"https://www.everyday-earth.com/",type:"Educational \ Fun Resources"},
-	{description:"A safe research site for elementary-level readers. They are offering — free 24/7 access. Username: Read, Password: Read",website:"https://www.facts4me.com/",type:"Educational \ Fun Resources"},
-	{description:"Resources for AP students including live reviews, live trivia, and study guides!",website:"https://app.fiveable.me/",type:"Educational \ Fun Resources"},
-	{description:"Educational brain breaks to help students review essential literacy and math skills, while getting in some exercise. Find over 900 videos to help your child keep learning at home and burn off some extra energy. Our site is best used for ages 4-8.",website:"https://fluencyandfitness.com/register/school-closures/",type:"Educational \ Fun Resources"},
-	{description:"Movement and mindfulness videos created by child development experts.",website:"https://www.gonoodle.com/",type:"Educational \ Fun Resources"},
-	{description:"7,000 free videos in 13 subject",website:"areas https://hippocampus.org",type:"Educational \ Fun Resources"},
-	{description:"Carmen Sandiego videos, stories, and lessons for all subject areas ",website:"https://www.carmensandiego.com/resources/",type:"Educational \ Fun Resources"},
-	{description:"Math Videos with lessons, real life uses of math, famous actors ",website:"https://www.hmhco.com/math-at-work",type:"Educational \ Fun Resources"},
-	{description:"Entertaining & educational videos for all levels and subjects",website:"https://www.izzit.org/index.php",type:"Educational \ Fun Resources"},
-	{description:"Online education program for toddler through high school…",website:"https://www.khanacademy.org/",type:"Educational \ Fun Resources"},
-	{description:"Free Printables for PreK-2nd Grade",website:"https://www.teacherspayteachers.com/Store/Literacy-With-The-Littles/Price-Range/Free",type:"Educational \ Fun Resources"},
-	{description:"Free printables library with activities for children 0-6",website:"https://www.littlesparkcompany.com/printables-library",type:"Educational \ Fun Resources"},
-	{description:"Free at-home kids yoga lesson plans ",website:"https://littletwistersyoga.com/online-store/",type:"Educational \ Fun Resources"},
-	{description:"Magic Spell is a carefully crafted spelling",website:"adventure. https://brainbox.games",type:"Educational \ Fun Resources"},
-	{description:"Resources for AP",website:"students https://marcolearning.com",type:"Educational \ Fun Resources"},
-	{description:"Enter your math problem or search term, press the button, and they show you the step-by-step work and answer instantly. 2nd grade through college.",website:"https://www.mathcelebrity.com/online-math-tutor.php",type:"Educational \ Fun Resources"},
-	{description:"Elem Math games, logic puzzles and educational resources",website:"https://www.mathplayground.com/",type:"Educational \ Fun Resources"},
-	{description:"Poetry and music",website:"https://www.thewell.world/mindful-music/mindful-poetry-moments",type:"Educational \ Fun Resources"},
-	{description:"3D printing projects and Coding projects, involving math and other K-12 subjects ",website:"https://www.instructables.com/member/EdgertonCenter/instructables/",type:"Educational \ Fun Resources"},
-	{description:"Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",website:"https://www.musictheory.net/",type:"Educational \ Fun Resources"},
-	{description:"Scads of free resources, games, learning resources, and lesson plans for teaching personal finance",website:"https://www.ngpf.org/",type:"Educational \ Fun Resources"},
-	{description:"Improve your typing skills while competing in fast-paced races with up to 5 typers from around the world.",website:"https://www.nitrotype.com/",type:"Educational \ Fun Resources"},
-	{description:"Illustrated recipes designed to help kids age 2-12 cook with their grown-ups. Recipes encourage culinary skills, literacy, math, and science.",website:"https://www.nomsterchef.com/nomster-recipe-library",type:"Educational \ Fun Resources"},
-	{description:"Online curriculum that builds better writers.",website:"https://www.noredink.com/",type:"Educational \ Fun Resources"},
-	{description:"80+ do at home science activities",website:"https://elementalscience.com/blogs/news/80-free-science-activities",type:"Educational \ Fun Resources"},
-	{description:"Daily lessons and educational activities that kids can do on their own",website:"https://www.superchargedschool.com/",type:"Educational \ Fun Resources"},
-	{description:"Adaptive curriculum in Math and ELA for Grades K-8",website:"https://www.scootpad.com/",type:"Educational \ Fun Resources"},
-	{description:"Novel Effect makes storytime a little more fun for kids (and grown-ups too!) As you read out loud from print books (or ebooks!) music, sound effects, and character voices play at just the right moment, adjusting and responding to your voice",website:"https://noveleffect.com/",type:"Educational \ Fun Resources"},
-	{description:"Quick & easy at home projects curated for kids 2 and up",website:"https://www.kiwico.com/kids-at-home",type:"Educational \ Fun Resources"},
-	{description:"Teaches students how to write a paragraph through interactive online tutorial",website:"http://www.paragraphpunch.com/",type:"Educational \ Fun Resources"},
-	{description:"PreK-12 digital media service with more than 30,000 learning materials",website:"https://www.pbslearningmedia.org/",type:"Educational \ Fun Resources"},
-	{description:"Curricular content hub specifically designed for K-3 students.",website:"https://pebblego.com/free-pebblego-capstone-interactive-access-school-closures",type:"Educational \ Fun Resources"},
-	{description:"Science and math labs and simulations",website:"https://phet.colorado.edu/",type:"Educational \ Fun Resources"},
-	{description:"An online physics problem and video bank designed for conceptual, standard, honors or AP1 physics.",website:"https://www.positivephysics.org/home",type:"Educational \ Fun Resources"},
-	{description:"Prodigies is a colorful music curriculum for kids 1-12 that will teach your kids how to play their first instrument, how to sing in tune & how to understand the language of music! 21 for free",website:"https://prodigiesmusic.com/",type:"Educational \ Fun Resources"},
-	{description:"Free videos from around the world from grade 3-12",website:"https://www.projectexplorer.org/",type:"Educational \ Fun Resources"},
-	{description:"QuaverMusic is offering free access to general music activities to all impacted schools, including free student access at-home",website:"https://www.quavermusic.com/info/at-home-resources/",type:"Educational \ Fun Resources"},
-	{description:"For students to practice and master whatever they are learning.",website:"https://quizlet.com/",type:"Educational \ Fun Resources"},
-	{description:"ReadWorks is an online resource of reading passages and lesson plans for students of all levels K-12.",website:"https://www.readworks.org/",type:"Educational \ Fun Resources"},
-	{description:"Critical Thinking resources for K-6 students",website:"https://marketplace.mythinkscape.com/store/redtkids",type:"Educational \ Fun Resources"},
-	{description:"Science simulations, scientist profiles, and other digital resources for middle school science and high school biology",website:"https://sepuplhs.org/",type:"Educational \ Fun Resources"},
-	{description:"The Shurley English program for grades K-8 provides a clear, logical, and concrete approach to language arts.",website:"https://www.shurley.com/",type:"Educational \ Fun Resources"},
-	{description:"Sight reading and sight singing practice exercises.",website:"https://www.sightreadingfactory.com/",type:"Educational \ Fun Resources"},
-	{description:"Music practice transformed",website:"https://www.smartmusic.com/",type:"Educational \ Fun Resources"},
-	{description:"Spellingcity is free right now with code VSCFree90",website:"https://www.spellingcity.com/",type:"Educational \ Fun Resources"},
-	{description:"Kid-friendly workouts — choose from Strength for Kids, Agility for Kids, Flexibility and Balance for Kids, Warm-Up for Kids, Cooldown for Kids, Stand Up and Move for Kids, OR create your own custom kid workout.",website:"https://app.sworkit.com/collections/kids-workouts",type:"Educational \ Fun Resources"},
-	{description:"A collection of hundreds of free K-12 STEM resources, from standalone models and simulations to short activities and week long sequences of curriculum materials.",website:"https://learn.concord.org/",type:"Educational \ Fun Resources"},
-	{description:"Course sets (Levels 1–5) that combine and thoroughly cover phonics, reading, writing, spelling, literature, grammar, punctuation, art, and geography—all in one easy-to-use, beautiful course.",website:"https://www.goodandbeautiful.com/",type:"Educational \ Fun Resources"},
-	{description:"At home OT, PT, and ST resources designed to build skills in children through movement and play.",website:"https://www.theottoolbox.com/",type:"Educational \ Fun Resources"},
-	{description:"Science projects that can be completed with or without Internet access https://sciencespot.net/Pages/classhome html",website:"(https://sciencespot",type:"Educational \ Fun Resources"},
-	{description:"Keyboarding practice",website:"https://www.typing.com/ or https://www.typingclub.com/",type:"Educational \ Fun Resources"},
-	{description:"Next Generation Science video game focused on middle school where students directly engage in science phenomena as they solve problems.",website:"https://www.tytoonline.com/",type:"Educational \ Fun Resources"},
-	{description:"Short videos and readings that answer various burning questions for students. There are vocabulary challenges and comprehension questions.",website:"http://wonderopolis.org/",type:"Educational \ Fun Resources"},
-	{description:"Math practice",website:"https://xtramath.org/#/home/index",type:"Educational \ Fun Resources"},
-	{description:"K-5 curriculum that builds deep understanding and a love of learning math for all students",website:"https://www.zearn.org/",type:"Educational \ Fun Resources"},
-	{description:"A quick start resource to help families pull together a plan for surviving the next 1-2 months at home with their kids, but it can also be a time of slowing down and enjoying kids as they learn.",website:"https://abetterwaytohomeschool.com/learning-at-home-everything-you-need-in-one-place.html",type:"Educational \ Fun Resources"},
-	{description:"Spelling 1-4 grade",website:"https://www.spellingtraining.com/",type:"Educational \ Fun Resources"},
-	{description:"2,500+ online courses from top institutions",website:"https://www.edx.org/",type:"Educational \ Fun Resources"},
-	{description:"22 languages to learn",website:"https://www.memrise.com/",type:"Educational \ Fun Resources"},
-	{description:"Miscellaneous games for all subjects k-8",website:"https://www.funbrain.com/",type:"Educational \ Fun Resources"},
-	{description:"Phonics and learning to read ",website:"https://readingeggs.com",type:"Educational \ Fun Resources"},
-	{description:"PreK – 5 games for all subjects",website:"https://www.turtlediary.com/",type:"Educational \ Fun Resources"},
-	{description:"Online digital coloring pages",website:"https://www.thecolor.com/",type:"Educational \ Fun Resources"},
-	{description:"Every course you could possibly want to homeschool preschool – 8",website:"8 https://allinonehomeschool.com",type:"Educational \ Fun Resources"},
-	{description:"Every course you could possibly want to homeschool for high school",website:"school https://allinonehighschool.com",type:"Educational \ Fun Resources"},
-	{description:"Phonics worksheets for kids",website:"https://www.funfonix.com/",type:"Educational \ Fun Resources"},
-	{description:"Free stories online ages 3-12",website:"https://www.freechildrenstories.com/",type:"Educational \ Fun Resources"},
-	{description:"National Geographic Young Explorers is a magazine designed specifically for kindergarten and first grade students. Children can listen to the magazine being read to them as they follow along with the highlighted text.",website:"https://ngexplorer.cengage.com/ngyoungexplorer/index.html",type:"Educational \ Fun Resources"},
-	{description:"Learn all about earthquakes",website:"https://earthquake.usgs.gov/learn/kids/",type:"Educational \ Fun Resources"},
-	{description:"Learn all about the periodic table",website:"https://www.chemicool.com/",type:"Educational \ Fun Resources"},
-	{description:"Farmer’s almanac for kids… Date, weather, moon phase, etc.",website:"https://www.almanac.com/kids",type:"Educational \ Fun Resources"},
-	{description:"Guide to gardening for kids",website:"https://web.extension.illinois.edu/firstgarden/",type:"Educational \ Fun Resources"},
-	{description:"Website allows students to play basic games to reinforce math skills and compete against the computer or others",website:"https://www.mangahigh.com/en-us/",type:"Educational \ Fun Resources"},
-	{description:"Space science for kiddos",website:"https://www.nasa.gov/kidsclub/index.html",type:"Educational \ Fun Resources"},
-	{description:"Math Games, Logic Puzzles and Brain Builders",website:"https://www.mathplayground.com/",type:"Educational \ Fun Resources"},
-	{description:"Games, quizzes and fact sheets take kids on a journey through time.",website:"https://www.bbc.co.uk/history/forkids/",type:"Educational \ Fun Resources"},
-	{description:"NGAkids interactives offer an entertaining and informative introduction to art and art history.",website:"https://www.nga.gov/education/kids.html",type:"Educational \ Fun Resources"},
-	{description:"News and more for kids ",website:"https://www.youngzine.org/",type:"Educational \ Fun Resources"},
-	{description:"Randomly generates 356,300,262,144 story starters",website:"https://thestorystarter.com/",type:"Educational \ Fun Resources"},
-	{description:"Immerse yourself in cryptography ",website:"https://www.cryptoclub.org/",type:"Educational \ Fun Resources"},
-	{description:"Math games galore",website:"https://gridclub.com/",type:"Educational \ Fun Resources"},
-	{description:"Experiments that you can do at home ",website:"https://www.stevespanglerscience.com/lab/experiments/",type:"Educational \ Fun Resources"},
-	{description:"An interactive way to learn history ",website:"https://www.mission-us.org/",type:"Educational \ Fun Resources"},
-	{description:"Just explore, have fun, and learn some science along the way. ",website:"https://thehappyscientist.com/",type:"Educational \ Fun Resources"},
-	{description:"Interactive games based on the book series ",website:"https://www.magictreehouse.com/",type:"Educational \ Fun Resources"},
-	{description:"Work on the 8 parts of speech",website:"https://www.grammaropolis.com/",type:"Educational \ Fun Resources"},
-	{description:"Learn all about cells ",website:"https://www.cellsalive.com/",type:"Educational \ Fun Resources"},
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://getbootstrap.com/docs/3.3/examples/starter-template/#">COVID-19 Resources</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="https://getbootstrap.com/docs/3.3/examples/starter-template/#">Home</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
 
-	]
+    <div class="cover-container">
+      <div class="starter-template">
+          <h1>COVID-19 resources</h1>
+          <p>A complete list of free resources and companies that are offering waived fees during this time.</p>
+          <p>Credit to ➡️ <a href="https://old.reddit.com/r/YouShouldKnow/comments/fpdxob/ysk_many_companies_are_offering_free_services/">/u/perwinklefarts</a>for putting together the list</p>
+    </div>
+    <div class="container">
+      <!-- tabulator -->
+      <div id="tabulator-controls" class="table-controls  hidden-xs">
+        <i class="fa fa-filter fa-fw"></i>
+        <input class="filterbox" name="description" type="text" placeholder="Filter Table By Description">
+        <div id="tabulator-example"></div></br>
+      </div>
+    </div>
 
-    var table = new Tabulator("#tabulator-example", {
-      height:800,
-	  data:tabledata,
-      layout:"fitColumns",
-      responsiveLayout:"hide",
-      tooltips:true,
-	  addRowPos:"top",
-      history:true,
-      movableColumns:true,
-      resizableRows:true,
-      initialSort:[
-         {column:"description", dir:"asc"},,
-      ],
-      columns:[
-      {title:"Description", field:"description", minWidth:100, width:500, formatter:"textarea"},
-	  {title:"website", field:"website", width:500,align:"center", formatter:"link"},
-	  {title:"Type", field:"type", width:200,align:"center"},
-      ],
-    });
-
-    $("#tabulator-controls input[name=description]").on("keyup", function(){
-      table.setFilter( "description", "like", $(this).val())
-    });
-</script>
+  <script type="text/javascript">
+    //define data
+    
+    var tabledata = [
+    {description:"Free Access to Spectrum Broadband and Wi-Fi Internet Free For 60 Days for households with students",website:"",type:"Phone and Internet"},
+    {description:"Charter will offer free Spectrum broadband and Wi-Fi access for 60 days to households with K-12 and/or college students who do not already have a Spectrum broadband subscription and at any service level up to 100 Mbps. To enroll call 1-844-488-8395. Installation fees will be waived for new student households.",website:"",type:"Phone and Internet"},
+    {description:"T-Mobile & Metro Active Customers: All current T-Mobile and Metro by T-Mobile customers who have plans with data will have unlimited smartphone data for the next 60 days (excluding roaming).",website:"https://www.t-mobile.com/news/t-mobile-update-on-covid-19-response?", type:"Phone and Internet"},
+    {description:"T-Mobile is offering all current customers unlimited data and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
+    {description:"Mint Mobile: New and existing customers can get Unlimited 4G LTE Data for free.",website:"https://www.mintmobile.com/unlimited/?",type:"Phone and Internet"},
+    {description:"AT&T: AT&T is suspending broadband data caps for home internet customers. They’re also waiving late fees for next 30-60 days. They’ll also provide free access to its public WiFi hot spots.",website:"https://www.theverge.com/2020/3/12/21177538/att-broadband-internet-data-cap-coronavirus-suspend",type:"Phone and Internet"},
+    {description:"Sprint is offering unlimited data for all users and waiving late fees for next 30-60 days",website:"",type:"Phone and Internet"},
+    {description:"Verizon: Verizon will waive late fees and keep residential and small business customers connected if negatively impacted by global crisis.",website:"https://www.verizon.com/about/news/verizon-help-customers-and-small-businesses",type:"Phone and Internet"},
+    {description:"Comcast/Xfinity: Comcast opens Xfinity WiFi Network Nationally for Free and Offers Unlimited Data for Free.",website:"https://corporate.comcast.com/covid-19",type:"Phone and Internet"},
+    {description:"Enterprise will waive underage fees for college students age 18-24.",website:"https://www.enterprise.com/en/car-rental/deals/young-driver.html",type:"Phone and Internet"},
+    {description:"Southwest: They always offer free flight changes so nothing changes for them. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
+    {description:"JetBlue: JetBlue has suspended change and cancel fees for all new flight bookings made between March 6, 2020 and March 31, 2020 for travel through September 8, 2020. The change/cancel fees suspension still applies for bookings made between February 27, 2020 and March 5, 2020 for travel through June 1, 2020.",website:"",type:"Major Domestic Airlines"},
+    {description:"Delta: No Change Fees For All Tickets Purchased Between March 1 to 31, 2020. Ticket Can Be Changed One-Time To An Alternate Itinerary. Must Be Re-issued On/Before: February 28, 2021. Any difference in fare will apply.",website:"",type:"Major Domestic Airlines"},
+    {description:"American Airlines: American Airlines will waive the change fee only on published Non-Refundable Fare tickets. Tickets must be purchased between March 1, 2020 and March 31, 2020, with original travel between March 1, 2020 and January 30, 2021. Changes must be made prior to the departure of your original flight. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
+    {description:"United: When you book a flight between March 3 and March 31, 2020, you can change it for free over the next 12 months. Any difference in fare will apply",website:"",type:"Major Domestic Airlines"},
+    {description:"Planet Fitness is offering Free in-home workouts for everyone. Workouts will be led by trainers and surprise celebrity guests. If you miss the live class, you can come back and watch it later.",website:"",type:"Fitness"},
+    {description:"Peleton is offering an extended 90-day free trial to its at-home workouts application during the quarantine. The in-app workouts don’t require you own any Peloton equipment, and include yoga, HIIT, stretching, and other categories. Download the Peleton app for free in the App Store or Play Store.",website:"",type:"Fitness"},
+    {description:"Apple Card holders will be allowed to skip their March payment without incurring interest by signing up for a Customer Assistance Program, Apple is informing its customers. To join the Customer Assistance Program, Apple Card customers can call an Apple support rep directly through the Apple Wallet app and ask to be added.",website:"https://techcrunch.com/2020/03/16/you-can-ask-to-skip-your-apple-card-payment-for-march-apple-tells-customers/",type:"Credit Cards/Finance"},
+    {description:"American Express will waive 2 months of payments without charging penalties or interest. However, if you use this benefit, you won’t be able to use that credit card or points until you opt out.",website:"https://www.americanexpress.com/us/customer-service/financial-hardship.html",type:"Credit Cards/Finance"},
+    {description:"Chase and other banks will offer 60 days of no late fees or interest for those impacted by the quarantine, call your bank to find out if you are eligible and what terms will apply.",website:"https://www.chase.com/digital/resources/coronavirus?jp_cmp=rb/CV/off/stayconnected/na",type:"Credit Cards/Finance"},
+    {description:"Some leasing companies are offering to push off payments for 1 to 3 months. In return, they’ll extend your lease by that amount of time and have you pay regular payments then, essentially giving you an extra 1 to 3 months for free. Your max miles for the lease though will remain the same. Contact your auto see what they’re offering.",website:"",type:"Credit Cards/Finance"},
+    {description:"Chevrolet, Buick, GMC and Cadillac owners get free On-Star and free in vehicle internet",website:"https://www.onstar.com/us/en/onstar-cares/",type:"Credit Cards/Finance"},
+    {description:"Many states (New York included) and mortgage companies are offering 1 to 6 months of no mortgage payment requirements. Contact your mortgage provider to see what they’re offering and if you qualify.",website:"",type:"Credit Cards/Finance"},
+    {description:"Uber Eats will waive delivery fees on all orders amid the quarantine. Service charges will still apply though.",website:"https://www.cnet.com/news/uber-eats-waives-delivery-fees-amid-coronavirus-outbreak/",type:"Food / Misc"},
+    {description:"Starbucks will give a free tall hot or iced brewed coffee to anyone that identifies themselves as a front line responder from today through May 3rd",website:"",type:"Food / Misc"},
+    {description:"Crocs will be giving out 10,000 pairs of their shoes for FREE starting 3/26 12pm EST to healthcare workers.",website:"https://crocs-us.xkpq.net/G9V0B",type:"Food / Misc"},
+    {description:"Airbnb is offering free cancellations on most reservations",website:"https://news.airbnb.com/extenuating-circumstances-policy-activated-around-the-world/",type:"Food / Misc"},
+    {description:"CVS and Walgreens: Both CVS and Walgreens will waive charges for home delivery of prescription medicines",website:"(https://www.forbes.com/sites/brucejapsen/2020/03/12/walgreens-joins-cvs-waiving-drug-delivery-fees-amid-coronavirus-crisis/#7e3d647e51e3",type:"Food / Misc"},
+    {description:"Zoom Video is offering free video conferences for schools.",website:"https://zoom.us/docs/ent/school-verification.html",type:"Food / Misc"},
+    {description:"The New York Times",website:"https://www.nytimes.com/news-event/coronavirus",type:"No Paywalls"},
+    {description:"Wall Street Journal",website:"https://www.wsj.com/news/collection/coronavirus0312-256f2943",type:"No Paywalls"},
+    {description:"The Washington Post",website:"https://www.washingtonpost.com/coronavirus/",type:"No Paywalls"},
+    {description:"The Los Angeles Times",website:"https://www.latimes.com/california/liveblog/coronavirus-live-updates",type:"No Paywalls"},
+    {description:"The Guardian",website:"https://www.theguardian.com/world/coronavirus-outbreak",type:"No Paywalls"},
+    {description:"AP News",website:"https://apnews.com/",type:"No Paywalls"},
+    {description:"The Athletic",website:"https://theathletic.com/1669234/2020/03/16/covid-19-and-sports-latest-news-and-information-updated/",type:"No Paywalls"},
+    {description:"Scholastic has setup a “learn from home” website which will offer free daily courses for kids stuck at home because of school cancellations.",website:"https://classroommagazines.scholastic.com/support/learnathome.html",type:"Educational \ Fun Resources"},
+    {description:"Free Early Learning Academy for Kids from Pre-K to 2nd Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.abcmouse.com/Redeem",type:"Educational \ Fun Resources"},
+    {description:"Free Access to Reading IQ for Kids in Preschool through 6th Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.readingiq.com/redeem/",type:"Educational \ Fun Resources"},
+    {description:"Free Access to Academic Adventures for Kids in 3rd grade thru 8th grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",website:"https://www.adventureacademy.com/redeem/",type:"Educational \ Fun Resources"},
+    {description:"Prodigy Math has free video game style math learning and questions.",website:"https://www.prodigygame.com/",type:"Educational \ Fun Resources"},
+    {description:" Free access for 30 days that will be extended as long as schools are still closed",website:"https://go.brainpop.com/COVID19",type:"Educational \ Fun Resources"},
+    {description:"Hundreds of printable educational worksheets for free.",website:"https://www.worksheetfun.com/",type:"Educational \ Fun Resources"},
+    {description:"The San Diego Zoo has a website just for kids with amazing videos, activities, and games. Enjoy the tour!",website:"https://kids.sandiegozoo.org/",type:"Educational \ Fun Resources"},
+    {description:"Tour Yellowstone National Park!",website:"https://www.nps.gov/yell/learn/photosmultimedia/virtualtours.htm",type:"Educational \ Fun Resources"},
+    {description:"Explore the surface of Mars on the Curiosity Rover.",website:"https://accessmars.withgoogle.com/",type:"Educational \ Fun Resources"},
+    {description:"This Canadian site FarmFood 360 offers 11 Virtual Tours of farms from minks, pigs, and cows, to apples and eggs.",website:"https://www.farmfood360.ca/",type:"Educational \ Fun Resources"},
+    {description:"Indoor Activities for busy toddlers",website:"https://busytoddler.com/2020/03/indoor-activities/",type:"Educational \ Fun Resources"},
+    {description:"Play games and learn all about animals",website:"https://switchzoo.com/",type:"Educational \ Fun Resources"},
+    {description:"Play with fave show characters and learn too",website:"https://pbskids.org/",type:"Educational \ Fun Resources"},
+    {description:"Travel to Paris, France to see amazing works of art at The Louvre with this virtual field trip.",website:"https://www.louvre.fr/en/visites-en-ligne",type:"Educational \ Fun Resources"},
+    {description:"This Virtual Tour of the Great Wall of China is beautiful and makes history come to life.",website:"https://www.thechinaguide.com/destination/great-wall-of-china",type:"Educational \ Fun Resources"},
+    {description:"Math and Reading games",website:"https://www.funbrain.com/",type:"Educational \ Fun Resources"},
+    {description:"Phonics skills ",website:"https://www.starfall.com/h/",type:"Educational \ Fun Resources"},
+    {description:"Read, play games, and hang out with Dr. Seuss",website:"https://www.seussville.com/",type:"Educational \ Fun Resources"},
+    {description:"300,000+ FREE printable worksheets from toddlers to teens ",website:"https://www.123homeschool4me.com/home-school-free-printables/",type:"Educational \ Fun Resources"},
+    {description:"Geography and animals",website:"https://kids.nationalgeographic.com/",type:"Educational \ Fun Resources"},
+    {description:"Math practice from counting to algebra and geometry",website:"http://www.mathscore.com/",type:"Educational \ Fun Resources"},
+    {description:"Fave kids books read by famous people",website:"https://www.storylineonline.net/",type:"Educational \ Fun Resources"},
+    {description:"Crafts, activities, mazes, dot to dot, etc",website:"https://www.allkidsnetwork.com/",type:"Educational \ Fun Resources"},
+    {description:"High school chemistry topics",website:"https://www.acs.org/content/acs/en/education/resources/highschool/chemmatters/articles-by-topic.html",type:"Educational \ Fun Resources"},
+    {description:"Math and reading games",website:"https://www.abcya.com/",type:"Educational \ Fun Resources"},
+    {description:"Math and language games",website:"https://www.arcademics.com/",type:"Educational \ Fun Resources"},
+    {description:"Hands on Elem science videos",website:"https://www.backpacksciences.com/science-simplified",type:"Educational \ Fun Resources"},
+    {description:"Voice based learning… learn through Alexa",website:"https://bamboolearning.com/resources",type:"Educational \ Fun Resources"},
+    {description:"Fun games, recipes, crafts, activities ",website:"https://www.highlightskids.com/",type:"Educational \ Fun Resources"},
+    {description:"ClickSchooling brings you daily recommendations by email for entertaining websites that help your kids learn.",website:"https://clickschooling.com/",type:"Educational \ Fun Resources"},
+    {description:"Math as a fun part of your daily family routine",website:"http://bedtimemath.org/",type:"Educational \ Fun Resources"},
+    {description:"Games to get “into the book”",website:"https://reading.ecb.org/",type:"Educational \ Fun Resources"},
+    {description:"Online history classes for all ages preteen through adults",website:"https://school.bighistoryproject.com/bhplive",type:"Educational \ Fun Resources"},
+    {description:"Biology",website:"https://www.biologysimulations.com/",type:"Educational \ Fun Resources"},
+    {description:"Elem Math through 6th grade",website:"https://boddlelearning.com/",type:"Educational \ Fun Resources"},
+    {description:"Educational games K-12 ",website:"https://www.breakoutedu.com/funathome",type:"Educational \ Fun Resources"},
+    {description:"Digital archive of history",website:"https://www.bunkhistory.org/",type:"Educational \ Fun Resources"},
+    {description:"Test Prep for SAT, ACT, etc.",website:"https://www.bwseducationconsulting.com/handouts.php",type:"Educational \ Fun Resources"},
+    {description:"Geometry",website:"https://www.canfigureit.com/",type:"Educational \ Fun Resources"},
+    {description:"Resources for Spanish practice ",website:"https://www.difusion.com/campus/",type:"Educational \ Fun Resources"},
+    {description:"Music is for everyone ",website:"https://musiclab.chromeexperiments.com/Experiments",type:"Educational \ Fun Resources"},
+    {description:"Science, Math, Social Studies",website:"https://www.ck12.org/student/",type:"Educational \ Fun Resources"},
+    {description:"Grammar practice for middle grades",website:"https://www.classroomcereal.com/",type:"Educational \ Fun Resources"},
+    {description:"Daily free science or cooking experiment to do",website:"home.http://www.clubscikidzmd.com/blog/",type:"Educational \ Fun Resources"},
+    {description:"Chemistry",website:"https://www.playmadagames.com/",type:"Educational \ Fun Resources"},
+    {description:"Reading passages for grades 3-12, with reading comprehension and discussion questions.",website:"https://www.commonlit.org/",type:"Educational \ Fun Resources"},
+    {description:"Vocabulary, grammar, listening activities and games in Spanish, French, Italian, German, Portuguese, Korean, and Latin.",website:"https://conjuguemos.com/",type:"Educational \ Fun Resources"},
+    {description:"35,000 pages of online content on the cultures and countries of the world.",website:"https://www.countryreports.org/",type:"Educational \ Fun Resources"},
+    {description:"K-5th Science lessons",website:"https://mysteryscience.com/",type:"Educational \ Fun Resources"},
+    {description:"Tons of free classes from leading universities and companies",website:"https://www.coursera.org/",type:"Educational \ Fun Resources"},
+    {description:"Free printable K-8 Reading and Math activity packs (available in English and Spanish)",website:"https://www.curriculumassociates.com/supporting-students-away-from-school",type:"Educational \ Fun Resources"},
+    {description:"Digital learning content for preschool through high school",website:"https://www.curriki.org/",type:"Educational \ Fun Resources"},
+    {description:"A wide range of math content from middle school through AP Calculus.",website:"https://deltamath.com/overview",type:"Educational \ Fun Resources"},
+    {description:"Day-by-day projects to keep kids reading, thinking, and growing.",website:"https://classroommagazines.scholastic.com/support/learnathome.html",type:"Educational \ Fun Resources"},
+    {description:"3 Free Weeks of Maker Stations to keep your children creating at home! Each challenge includes simple instructions using materials around the house, QR code video resources, and a student recording sheet.",website:"bit.ly/freemakerstations",type:"Educational \ Fun Resources"},
+    {description:"Classes for older teens or adults ",website:"https://www.thegreatcoursesplus.com/lp/t1/freemo",type:"Educational \ Fun Resources"},
+    {description:"Online homeschool platform & curriculum for Pre-K to 12th grade. All main subjects are covered, plus extra curriculum courses.",website:"http://discoveryk12.com/dk12/",type:"Educational \ Fun Resources"},
+    {description:"Printable board games, activities and more for phonics and reading all using evidence-based methods. Can be customized to any student’s needs including creating flashcards for other subjects.",website:"https://dogonalogbooks.com/printables/",type:"Educational \ Fun Resources"},
+    {description:"K-8 online math program that looks at how a student is solving problems to adjust accordingly and build a unique learning path for them.",website:"https://www.dreambox.com/at-home",type:"Educational \ Fun Resources"},
+    {description:"Engaging reading game for grades 2-8 that combines strategy, engagement, and imaginative reading passages to create a fun, curriculum-aligned literacy game.",website:"https://www.squigglepark.com/dreamscape/",type:"Educational \ Fun Resources"},
+    {description:"Higher level math series… online video series with detailed solutions to more than a thousand publicly-released College Board SAT Math, Subject Test Math Level 1, and Subject Test Math Level 2 problems.",website:"https://www.youtube.com/channel/UCbQoCpvYRYRkRRvsObOPHaA?reload=9",type:"Educational \ Fun Resources"},
+    {description:"Foreign languages",website:"https://www.duolingo.com/",type:"Educational \ Fun Resources"},
+    {description:"Interactive video earth science based curriculum supplement.",website:"https://www.everyday-earth.com/",type:"Educational \ Fun Resources"},
+    {description:"A safe research site for elementary-level readers. They are offering — free 24/7 access. Username: Read, Password: Read",website:"https://www.facts4me.com/",type:"Educational \ Fun Resources"},
+    {description:"Resources for AP students including live reviews, live trivia, and study guides!",website:"https://app.fiveable.me/",type:"Educational \ Fun Resources"},
+    {description:"Educational brain breaks to help students review essential literacy and math skills, while getting in some exercise. Find over 900 videos to help your child keep learning at home and burn off some extra energy. Our site is best used for ages 4-8.",website:"https://fluencyandfitness.com/register/school-closures/",type:"Educational \ Fun Resources"},
+    {description:"Movement and mindfulness videos created by child development experts.",website:"https://www.gonoodle.com/",type:"Educational \ Fun Resources"},
+    {description:"7,000 free videos in 13 subject",website:"areas https://hippocampus.org",type:"Educational \ Fun Resources"},
+    {description:"Carmen Sandiego videos, stories, and lessons for all subject areas ",website:"https://www.carmensandiego.com/resources/",type:"Educational \ Fun Resources"},
+    {description:"Math Videos with lessons, real life uses of math, famous actors ",website:"https://www.hmhco.com/math-at-work",type:"Educational \ Fun Resources"},
+    {description:"Entertaining & educational videos for all levels and subjects",website:"https://www.izzit.org/index.php",type:"Educational \ Fun Resources"},
+    {description:"Online education program for toddler through high school…",website:"https://www.khanacademy.org/",type:"Educational \ Fun Resources"},
+    {description:"Free Printables for PreK-2nd Grade",website:"https://www.teacherspayteachers.com/Store/Literacy-With-The-Littles/Price-Range/Free",type:"Educational \ Fun Resources"},
+    {description:"Free printables library with activities for children 0-6",website:"https://www.littlesparkcompany.com/printables-library",type:"Educational \ Fun Resources"},
+    {description:"Free at-home kids yoga lesson plans ",website:"https://littletwistersyoga.com/online-store/",type:"Educational \ Fun Resources"},
+    {description:"Magic Spell is a carefully crafted spelling",website:"adventure. https://brainbox.games",type:"Educational \ Fun Resources"},
+    {description:"Resources for AP",website:"students https://marcolearning.com",type:"Educational \ Fun Resources"},
+    {description:"Enter your math problem or search term, press the button, and they show you the step-by-step work and answer instantly. 2nd grade through college.",website:"https://www.mathcelebrity.com/online-math-tutor.php",type:"Educational \ Fun Resources"},
+    {description:"Elem Math games, logic puzzles and educational resources",website:"https://www.mathplayground.com/",type:"Educational \ Fun Resources"},
+    {description:"Poetry and music",website:"https://www.thewell.world/mindful-music/mindful-poetry-moments",type:"Educational \ Fun Resources"},
+    {description:"3D printing projects and Coding projects, involving math and other K-12 subjects ",website:"https://www.instructables.com/member/EdgertonCenter/instructables/",type:"Educational \ Fun Resources"},
+    {description:"Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",website:"https://www.musictheory.net/",type:"Educational \ Fun Resources"},
+    {description:"Scads of free resources, games, learning resources, and lesson plans for teaching personal finance",website:"https://www.ngpf.org/",type:"Educational \ Fun Resources"},
+    {description:"Improve your typing skills while competing in fast-paced races with up to 5 typers from around the world.",website:"https://www.nitrotype.com/",type:"Educational \ Fun Resources"},
+    {description:"Illustrated recipes designed to help kids age 2-12 cook with their grown-ups. Recipes encourage culinary skills, literacy, math, and science.",website:"https://www.nomsterchef.com/nomster-recipe-library",type:"Educational \ Fun Resources"},
+    {description:"Online curriculum that builds better writers.",website:"https://www.noredink.com/",type:"Educational \ Fun Resources"},
+    {description:"80+ do at home science activities",website:"https://elementalscience.com/blogs/news/80-free-science-activities",type:"Educational \ Fun Resources"},
+    {description:"Daily lessons and educational activities that kids can do on their own",website:"https://www.superchargedschool.com/",type:"Educational \ Fun Resources"},
+    {description:"Adaptive curriculum in Math and ELA for Grades K-8",website:"https://www.scootpad.com/",type:"Educational \ Fun Resources"},
+    {description:"Novel Effect makes storytime a little more fun for kids (and grown-ups too!) As you read out loud from print books (or ebooks!) music, sound effects, and character voices play at just the right moment, adjusting and responding to your voice",website:"https://noveleffect.com/",type:"Educational \ Fun Resources"},
+    {description:"Quick & easy at home projects curated for kids 2 and up",website:"https://www.kiwico.com/kids-at-home",type:"Educational \ Fun Resources"},
+    {description:"Teaches students how to write a paragraph through interactive online tutorial",website:"http://www.paragraphpunch.com/",type:"Educational \ Fun Resources"},
+    {description:"PreK-12 digital media service with more than 30,000 learning materials",website:"https://www.pbslearningmedia.org/",type:"Educational \ Fun Resources"},
+    {description:"Curricular content hub specifically designed for K-3 students.",website:"https://pebblego.com/free-pebblego-capstone-interactive-access-school-closures",type:"Educational \ Fun Resources"},
+    {description:"Science and math labs and simulations",website:"https://phet.colorado.edu/",type:"Educational \ Fun Resources"},
+    {description:"An online physics problem and video bank designed for conceptual, standard, honors or AP1 physics.",website:"https://www.positivephysics.org/home",type:"Educational \ Fun Resources"},
+    {description:"Prodigies is a colorful music curriculum for kids 1-12 that will teach your kids how to play their first instrument, how to sing in tune & how to understand the language of music! 21 for free",website:"https://prodigiesmusic.com/",type:"Educational \ Fun Resources"},
+    {description:"Free videos from around the world from grade 3-12",website:"https://www.projectexplorer.org/",type:"Educational \ Fun Resources"},
+    {description:"QuaverMusic is offering free access to general music activities to all impacted schools, including free student access at-home",website:"https://www.quavermusic.com/info/at-home-resources/",type:"Educational \ Fun Resources"},
+    {description:"For students to practice and master whatever they are learning.",website:"https://quizlet.com/",type:"Educational \ Fun Resources"},
+    {description:"ReadWorks is an online resource of reading passages and lesson plans for students of all levels K-12.",website:"https://www.readworks.org/",type:"Educational \ Fun Resources"},
+    {description:"Critical Thinking resources for K-6 students",website:"https://marketplace.mythinkscape.com/store/redtkids",type:"Educational \ Fun Resources"},
+    {description:"Science simulations, scientist profiles, and other digital resources for middle school science and high school biology",website:"https://sepuplhs.org/",type:"Educational \ Fun Resources"},
+    {description:"The Shurley English program for grades K-8 provides a clear, logical, and concrete approach to language arts.",website:"https://www.shurley.com/",type:"Educational \ Fun Resources"},
+    {description:"Sight reading and sight singing practice exercises.",website:"https://www.sightreadingfactory.com/",type:"Educational \ Fun Resources"},
+    {description:"Music practice transformed",website:"https://www.smartmusic.com/",type:"Educational \ Fun Resources"},
+    {description:"Spellingcity is free right now with code VSCFree90",website:"https://www.spellingcity.com/",type:"Educational \ Fun Resources"},
+    {description:"Kid-friendly workouts — choose from Strength for Kids, Agility for Kids, Flexibility and Balance for Kids, Warm-Up for Kids, Cooldown for Kids, Stand Up and Move for Kids, OR create your own custom kid workout.",website:"https://app.sworkit.com/collections/kids-workouts",type:"Educational \ Fun Resources"},
+    {description:"A collection of hundreds of free K-12 STEM resources, from standalone models and simulations to short activities and week long sequences of curriculum materials.",website:"https://learn.concord.org/",type:"Educational \ Fun Resources"},
+    {description:"Course sets (Levels 1–5) that combine and thoroughly cover phonics, reading, writing, spelling, literature, grammar, punctuation, art, and geography—all in one easy-to-use, beautiful course.",website:"https://www.goodandbeautiful.com/",type:"Educational \ Fun Resources"},
+    {description:"At home OT, PT, and ST resources designed to build skills in children through movement and play.",website:"https://www.theottoolbox.com/",type:"Educational \ Fun Resources"},
+    {description:"Science projects that can be completed with or without Internet access https://sciencespot.net/Pages/classhome html",website:"(https://sciencespot",type:"Educational \ Fun Resources"},
+    {description:"Keyboarding practice",website:"https://www.typing.com/ or https://www.typingclub.com/",type:"Educational \ Fun Resources"},
+    {description:"Next Generation Science video game focused on middle school where students directly engage in science phenomena as they solve problems.",website:"https://www.tytoonline.com/",type:"Educational \ Fun Resources"},
+    {description:"Short videos and readings that answer various burning questions for students. There are vocabulary challenges and comprehension questions.",website:"http://wonderopolis.org/",type:"Educational \ Fun Resources"},
+    {description:"Math practice",website:"https://xtramath.org/#/home/index",type:"Educational \ Fun Resources"},
+    {description:"K-5 curriculum that builds deep understanding and a love of learning math for all students",website:"https://www.zearn.org/",type:"Educational \ Fun Resources"},
+    {description:"A quick start resource to help families pull together a plan for surviving the next 1-2 months at home with their kids, but it can also be a time of slowing down and enjoying kids as they learn.",website:"https://abetterwaytohomeschool.com/learning-at-home-everything-you-need-in-one-place.html",type:"Educational \ Fun Resources"},
+    {description:"Spelling 1-4 grade",website:"https://www.spellingtraining.com/",type:"Educational \ Fun Resources"},
+    {description:"2,500+ online courses from top institutions",website:"https://www.edx.org/",type:"Educational \ Fun Resources"},
+    {description:"22 languages to learn",website:"https://www.memrise.com/",type:"Educational \ Fun Resources"},
+    {description:"Miscellaneous games for all subjects k-8",website:"https://www.funbrain.com/",type:"Educational \ Fun Resources"},
+    {description:"Phonics and learning to read ",website:"https://readingeggs.com",type:"Educational \ Fun Resources"},
+    {description:"PreK – 5 games for all subjects",website:"https://www.turtlediary.com/",type:"Educational \ Fun Resources"},
+    {description:"Online digital coloring pages",website:"https://www.thecolor.com/",type:"Educational \ Fun Resources"},
+    {description:"Every course you could possibly want to homeschool preschool – 8",website:"8 https://allinonehomeschool.com",type:"Educational \ Fun Resources"},
+    {description:"Every course you could possibly want to homeschool for high school",website:"school https://allinonehighschool.com",type:"Educational \ Fun Resources"},
+    {description:"Phonics worksheets for kids",website:"https://www.funfonix.com/",type:"Educational \ Fun Resources"},
+    {description:"Free stories online ages 3-12",website:"https://www.freechildrenstories.com/",type:"Educational \ Fun Resources"},
+    {description:"National Geographic Young Explorers is a magazine designed specifically for kindergarten and first grade students. Children can listen to the magazine being read to them as they follow along with the highlighted text.",website:"https://ngexplorer.cengage.com/ngyoungexplorer/index.html",type:"Educational \ Fun Resources"},
+    {description:"Learn all about earthquakes",website:"https://earthquake.usgs.gov/learn/kids/",type:"Educational \ Fun Resources"},
+    {description:"Learn all about the periodic table",website:"https://www.chemicool.com/",type:"Educational \ Fun Resources"},
+    {description:"Farmer’s almanac for kids… Date, weather, moon phase, etc.",website:"https://www.almanac.com/kids",type:"Educational \ Fun Resources"},
+    {description:"Guide to gardening for kids",website:"https://web.extension.illinois.edu/firstgarden/",type:"Educational \ Fun Resources"},
+    {description:"Website allows students to play basic games to reinforce math skills and compete against the computer or others",website:"https://www.mangahigh.com/en-us/",type:"Educational \ Fun Resources"},
+    {description:"Space science for kiddos",website:"https://www.nasa.gov/kidsclub/index.html",type:"Educational \ Fun Resources"},
+    {description:"Math Games, Logic Puzzles and Brain Builders",website:"https://www.mathplayground.com/",type:"Educational \ Fun Resources"},
+    {description:"Games, quizzes and fact sheets take kids on a journey through time.",website:"https://www.bbc.co.uk/history/forkids/",type:"Educational \ Fun Resources"},
+    {description:"NGAkids interactives offer an entertaining and informative introduction to art and art history.",website:"https://www.nga.gov/education/kids.html",type:"Educational \ Fun Resources"},
+    {description:"News and more for kids ",website:"https://www.youngzine.org/",type:"Educational \ Fun Resources"},
+    {description:"Randomly generates 356,300,262,144 story starters",website:"https://thestorystarter.com/",type:"Educational \ Fun Resources"},
+    {description:"Immerse yourself in cryptography ",website:"https://www.cryptoclub.org/",type:"Educational \ Fun Resources"},
+    {description:"Math games galore",website:"https://gridclub.com/",type:"Educational \ Fun Resources"},
+    {description:"Experiments that you can do at home ",website:"https://www.stevespanglerscience.com/lab/experiments/",type:"Educational \ Fun Resources"},
+    {description:"An interactive way to learn history ",website:"https://www.mission-us.org/",type:"Educational \ Fun Resources"},
+    {description:"Just explore, have fun, and learn some science along the way. ",website:"https://thehappyscientist.com/",type:"Educational \ Fun Resources"},
+    {description:"Interactive games based on the book series ",website:"https://www.magictreehouse.com/",type:"Educational \ Fun Resources"},
+    {description:"Work on the 8 parts of speech",website:"https://www.grammaropolis.com/",type:"Educational \ Fun Resources"},
+    {description:"Learn all about cells ",website:"https://www.cellsalive.com/",type:"Educational \ Fun Resources"},
+    ]
+  
+      var table = new Tabulator("#tabulator-example", {
+        height:800,
+        data:tabledata,
+        layout:"fitColumns",
+        autoResize:true,
+        tooltips:true,
+        addRowPos:"top",
+        resizableRows:true,
+        initialSort:[
+        {column:"type", dir:"asc"},,
+        ],
+        columns:[
+        {title:"Description", field:"description", width:300, formatter:"textarea", responsive:0},
+        {title:"website", field:"website", width:400,align:"center", formatter:"link", },
+        {title:"Type", field:"type", width:100,align:"center", formatter:"textarea"},
+        ],
+      });
+  
+      $("#tabulator-controls input[name=description]").on("keyup", function(){
+        table.setFilter( "description", "like", $(this).val())
+      });
+  </script>
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="dist/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src=".dist/js/ie10-viewport-bug-workaround.js"></script>
+  
 </body>
 </html>
