@@ -373,11 +373,11 @@
       var table = new Tabulator("#tabulator-example", {
         height:800,
         groupBy:"type",
+        groupStartOpen:false,
         data:tabledata,
-        layout:"fitColumns",
+        layout:"fitDataStretch",
         autoResize:true,
         tooltips:true,
-        groupStartOpen:false,
         addRowPos:"top",
         resizableRows:true,
         initialSort:[
