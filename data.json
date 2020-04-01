@@ -1,311 +1,1539 @@
-{ 
-    "tabledata" : [
-{"description":"Free Access to Spectrum Broadband and Wi-Fi Internet Free For 60 Days for households with students","wesbite":"","type":"Phone and Internet"},
-{"description":"Free access for 30 days that will be extended as long as schools are still closed","wesbite":"https://go.brainpop.com/COVID19","type":"Educational / Fun Resources"},
-{"description":"2,500+ online courses from top institutions","wesbite":"https://www.edx.org/","type":"Educational / Fun Resources"},
-{"description":"22 languages to learn","wesbite":"https://www.memrise.com/","type":"Educational / Fun Resources"},
-{"description":"3 Free Weeks of Maker Stations to keep your children creating at home! Each challenge includes simple instructions using materials around the house, QR code video resources, and a student recording sheet.","wesbite":"bit.ly/freemakerstations","type":"Stuff For Kiddos"},
-{"description":"300,000+ FREE printable worksheets from toddlers to teens ","wesbite":"https://www.123homeschool4me.com/home-school-free-printables/","type":"Educational / Fun Resources"},
-{"description":"35,000 pages of online content on the cultures and countries of the world.","wesbite":"https://www.countryreports.org/","type":"Educational / Fun Resources"},
-{"description":"3D printing projects and Coding projects, involving math and other K-12 subjects ","wesbite":"https://www.instructables.com/member/EdgertonCenter/instructables/","type":"Educational / Fun Resources"},
-{"description":"7,000 free videos in 13 subject","wesbite":"areas https://hippocampus.org","type":"Educational / Fun Resources"},
-{"description":"80+ do at home science activities","wesbite":"https://elementalscience.com/blogs/news/80-free-science-activities","type":"Educational / Fun Resources"},
-{"description":"A collection of hundreds of free K-12 STEM resources, from standalone models and simulations to short activities and week long sequences of curriculum materials.","wesbite":"https://learn.concord.org/","type":"Educational / Fun Resources"},
-{"description":"A human visualization platform that allows students to explore the human body in really cool ways.","wesbite":"https://human.biodigital.com/login?returnUrl=/dashboard","type":"Educational / Fun Resources"},
-{"description":"A large selection of fun songs to help teach preschool and kindergarten students","wesbite":"https://www.songsforteaching.com/preschoolkindergarten.htm","type":"Educational / Fun Resources"},
-{"description":"A quick start resource to help families pull together a plan for surviving the next 1-2 months at home with their kids, but it can also be a time of slowing down and enjoying kids as they learn.","wesbite":"https://abetterwaytohomeschool.com/learning-at-home-everything-you-need-in-one-place.html","type":"Educational / Fun Resources"},
-{"description":"A safe research site for elementary-level readers. They are offering — free 24/7 access. Username: Read, Password: Read","wesbite":"https://www.facts4me.com/","type":"Educational / Fun Resources"},
-{"description":"A wide range of math content from middle school through AP Calculus.","wesbite":"https://deltamath.com/overview","type":"Educational / Fun Resources"},
-{"description":"Adaptive curriculum in Math and ELA for Grades K-8","wesbite":"https://www.scootpad.com/","type":"Educational / Fun Resources"},
-{"description":"Adobe is offering free Creative Cloud apps and conferencing.","wesbite":"https://helpx.adobe.com/enterprise/kb/covid-19-education-labs.html","type":"Educational / Fun Resources"},
-{"description":"Airbnb is offering free cancellations on most reservations","wesbite":"https://news.airbnb.com/extenuating-circumstances-policy-activated-around-the-world/","type":"Food / Misc"},
-{"description":"Alaskan Wildlife cams","wesbite":"(http://www.adfg.alaska.gov/index.cfm?adfg=viewing.webcams","type":"Educational / Fun Resources"},
-{"description":"Alcumus is specifically designed to provide high-performing students with a challenging curriculum appropriate to their abilities","wesbite":"https://artofproblemsolving.com/alcumus","type":"Educational / Fun Resources"},
-{"description":"Algebra games for kids","wesbite":"https://www.dragonboxapp.com/","type":"Educational / Fun Resources"},
-{"description":"All sorts of learning here if you dig in https://www.google.com/earth/()","wesbite":"https://www.google.com/earth/","type":"Educational / Fun Resources"},
-{"description":"Allows students to type in any city, state, or country to view an archive of historical photographs and other documents. It’s a unique way to help them learn about history.","wesbite":"","type":"Educational / Fun Resources"},
-{"description":"Amazon is also offering kids shows videos for free","wesbite":"https://amzn.to/2wBiVvq","type":"Stuff For Kiddos"},
-{"description":"Amazon is offering 2 Months of Kindle Unlimited for Free! Previous Members are Eligible Too","wesbite":"https://www.amazon.com/kindle-dbs/promoLanding?tag=1426-20&promoCode=7cad7d39-c2cf-4e3d-9b17-4ebafbb03a41","type":"Educational / Fun Resources"},
-{"description":"American Airlines: American Airlines will waive the change fee only on published Non-Refundable Fare tickets. Tickets must be purchased between March 1, 2020 and March 31, 2020, with original travel between March 1, 2020 and January 30, 2021. Changes must be made prior to the departure of your original flight. Any difference in fare will apply","wesbite":"","type":"Major Domestic Airlines"},
-{"description":"American Express will waive 2 months of payments without charging penalties or interest. However, if you use this benefit, you won’t be able to use that credit card or points until you opt out.","wesbite":"https://www.americanexpress.com/us/customer-service/financial-hardship.html","type":"Credit Cards/Finance"},
-{"description":"Amphibian unit studies","wesbite":"https://premeditatedleftovers.com/naturally-frugal-mom/amphibians-unit-study-resources/","type":"Educational / Fun Resources"},
-{"description":"An interactive way to learn history ","wesbite":"https://www.mission-us.org/","type":"Educational / Fun Resources"},
-{"description":"An online physics problem and video bank designed for conceptual, standard, honors or AP1 physics.","wesbite":"https://www.positivephysics.org/home","type":"Educational / Fun Resources"},
-{"description":"AP News","wesbite":"https://apnews.com/","type":"No Paywalls"},
-{"description":"Apparently your family can Skype a scientist and ask them stuff", "wesbite":"https://www.skypeascientist.com/for-families.html","type":"Stuff For Kiddos"},
-{"description":"Apple Card holders will be allowed to skip their March payment without incurring interest by signing up for a Customer Assistance Program, Apple is informing its customers. To join the Customer Assistance Program, Apple Card customers can call an Apple support rep directly through the Apple Wallet app and ask to be added.","wesbite":"https://techcrunch.com/2020/03/16/you-can-ask-to-skip-your-apple-card-payment-for-march-apple-tells-customers/","type":"Credit Cards/Finance"},
-{"description":"Ask Dr. Universe is a science-education project from Washington State University. Kids can send Dr. Universe any question they may have about history, geography, plants, animals, technology, engineering, math, culture, and more.","wesbite":"https://askdruniverse.wsu.edu/","type":"Educational / Fun Resources"},
-{"description":"At home OT, PT, and ST resources designed to build skills in children through movement and play.","wesbite":"https://www.theottoolbox.com/","type":"Stuff For Kiddos"},
-{"description":"At-Home Solution for TOEFL iBT ® Test and GRE ®General Test Amid Coronavirus Pandemic", "wesbite":"https://news.ets.org/press-releases/ets-introduces-at-home-solution-for-toefl-ibt-test-and-gre-general-test-amid-coronavirus-pandemic/","type":"Educational / Fun Resources"},
-{"description":"AT&T: AT&T is suspending broadband data caps for home internet customers. They’re also waiving late fees for next 30-60 days. They’ll also provide free access to its public WiFi hot spots.","wesbite":"https://www.theverge.com/2020/3/12/21177538/att-broadband-internet-data-cap-coronavirus-suspend","type":"Phone and Internet"},
-{"description":"Banzai exposes students to real-world financial dilemmas to teach them the importance of smart money management.","wesbite":"https://www.teachbanzai.com/","type":"Educational / Fun Resources"},
-{"description":"Biology","wesbite":"https://www.biologysimulations.com/","type":"Educational / Fun Resources"},
-{"description":"Brainscape offers over a million flashcard decks for every subject, entrance exam, and certification imaginable.","wesbite":"https://www.brainscape.com/","type":"Educational / Fun Resources"},
-{"description":"Burger King is offering free meals for children", "wesbite":"https://nypost.com/2020/03/19/burger-king-giving-away-free-kids-meals-amid-coronavirus-outbreak/","type":"Stuff For Kiddos"},
-{"description":"Cambridge is offering free textbooks and until the end of May", "wesbite":"https://www.cambridge.org/core/what-we-publish/textbooks/listing?aggs%5BproductSubject%5D%5Bfilters%5D=A57E10708F64FB69CE78C81A5C2A6555","type":"Educational / Fun Resources"},
-{"description":"Carmen Sandiego videos, stories, and lessons for all subject areas ","wesbite":"https://www.carmensandiego.com/resources/","type":"Educational / Fun Resources"},
-{"description":"Charter will offer free Spectrum broadband and Wi-Fi access for 60 days to households with K-12 and/or college students who do not already have a Spectrum broadband subscription and at any service level up to 100 Mbps. To enroll call 1-844-488-8395. Installation fees will be waived for new student households.","wesbite":"","type":"Phone and Internet"},
-{"description":"Chase and other banks will offer 60 days of no late fees or interest for those impacted by the quarantine, call your bank to find out if you are eligible and what terms will apply.","wesbite":"https://www.chase.com/digital/resources/coronavirus?jp_cmp=rb/CV/off/stayconnected/na","type":"Credit Cards/Finance"},
-{"description":"Chemistry","wesbite":"https://www.playmadagames.com/","type":"Educational / Fun Resources"},
-{"description":"Chevrolet, Buick, GMC and Cadillac owners get free On-Star and free in vehicle internet","wesbite":"https://www.onstar.com/us/en/onstar-cares/","type":"Credit Cards/Finance"},
-{"description":"Classes for older teens or adults ","wesbite":"https://www.thegreatcoursesplus.com/lp/t1/freemo","type":"Educational / Fun Resources"},
-{"description":"ClickSchooling brings you daily recommendations by email for entertaining websites that help your kids learn.","wesbite":"https://clickschooling.com/","type":"Stuff For Kiddos"},
-{"description":"Coding for ages 4-10","wesbite":"https://www.kodable.com/","type":"Educational / Fun Resources"},
-{"description":"Coding with Star Wars","wesbite":"https://code.org/starwars","type":"Educational / Fun Resources"},
-{"description":"Comcast/Xfinity: Comcast opens Xfinity WiFi Network Nationally for Free and Offers Unlimited Data for Free.","wesbite":"https://corporate.comcast.com/covid-19","type":"Phone and Internet"},
-{"description":"Cool Kid Facts gives your child access to educational videos, pictures, quizzes, downloadable worksheets, and infographics. They can use these to learn about geography, history, science, animals, and even the human body.","wesbite":"https://www.coolkidfacts.com/","type":"Educational / Fun Resources"},
-{"description":"Course sets (Levels 1–5) that combine and thoroughly cover phonics, reading, writing, spelling, literature, grammar, punctuation, art, and geography—all in one easy-to-use, beautiful course.","wesbite":"https://www.goodandbeautiful.com/","type":"Educational / Fun Resources"},
-{"description":"Crafts, activities, bulletin board designs, and finger plays for early education teachers and parents to use with kids.","wesbite":"http://www.preschoolexpress.com/","type":"Educational / Fun Resources"},
-{"description":"Crafts, activities, mazes, dot to dot, etc","wesbite":"https://www.allkidsnetwork.com/","type":"Stuff For Kiddos"},
-{"description":"Crafts, projects, science, recipes for young children","wesbite":"https://www.funology.com/","type":"Educational / Fun Resources"},
-{"description":"Critical Thinking resources for K-6 students","wesbite":"https://marketplace.mythinkscape.com/store/redtkids","type":"Educational / Fun Resources"},
-{"description":"Crocs will be giving out 10,000 pairs of their shoes for FREE starting 3/26 12pm EST to healthcare workers.","wesbite":"https://crocs-us.xkpq.net/G9V0B","type":"Food / Misc"},
-{"description":"Curricular content hub specifically designed for K-3 students.","wesbite":"https://pebblego.com/free-pebblego-capstone-interactive-access-school-closures","type":"Educational / Fun Resources"},
-{"description":"CVS and Walgreens: Both CVS and Walgreens will waive charges for home delivery of prescription medicines","wesbite":"https://www.forbes.com/sites/brucejapsen/2020/03/12/walgreens-joins-cvs-waiving-drug-delivery-fees-amid-coronavirus-crisis/#7e3d647e51e3","type":"Food / Misc"},
-{"description":"Daily free science or cooking experiment to do","wesbite":"home.http://www.clubscikidzmd.com/blog/","type":"Educational / Fun Resources"},
-{"description":"Daily lessons and educational activities that kids can do on their own","wesbite":"https://www.superchargedschool.com/","type":"Educational / Fun Resources"},
-{"description":"Day-by-day projects to keep kids reading, thinking, and growing.","wesbite":"https://classroommagazines.scholastic.com/support/learnathome.html","type":"Educational / Fun Resources"},
-{"description":"Delta: No Change Fees For All Tickets Purchased Between March 1 to 31, 2020. Ticket Can Be Changed One-Time To An Alternate Itinerary. Must Be Re-issued On/Before: February 28, 2021. Any difference in fare will apply.","wesbite":"","type":"Major Domestic Airlines"},
-{"description":"Digital archive of history","wesbite":"https://www.bunkhistory.org/","type":"Educational / Fun Resources"},
-{"description":"Digital learning content for preschool through high school","wesbite":"https://www.curriki.org/","type":"Educational / Fun Resources"},
-{"description":"Duolingo: Learn a new language","wesbite":"https://www.duolingo.com/","type":"Educational / Fun Resources"},
-{"description":"Education for kids all topics","wesbite":"https://www.ducksters.com/","type":"Educational / Fun Resources"},
-{"description":"Educational brain breaks to help students review essential literacy and math skills, while getting in some exercise. Find over 900 videos to help your child keep learning at home and burn off some extra energy. Our site is best used for ages 4-8.","wesbite":"https://fluencyandfitness.com/register/school-closures/","type":"Educational / Fun Resources"},
-{"description":"Educational games K-12 ","wesbite":"https://www.breakoutedu.com/funathome","type":"Educational / Fun Resources"},
-{"description":"Elem Math games, logic puzzles and educational resources","wesbite":"https://www.mathplayground.com/","type":"Educational / Fun Resources"},
-{"description":"Elem Math through 6th grade","wesbite":"https://boddlelearning.com/","type":"Educational / Fun Resources"},
-{"description":"Engaging reading game for grades 2-8 that combines strategy, engagement, and imaginative reading passages to create a fun, curriculum-aligned literacy game.","wesbite":"https://www.squigglepark.com/dreamscape/","type":"Educational / Fun Resources"},
-{"description":"Engineering challenges with things you have at home","wesbite":"https://thehomeschoolscientist.com/paper-structures-engineering-challenge/","type":"Educational / Fun Resources"},
-{"description":"Enter your math problem or search term, press the button, and they show you the step-by-step work and answer instantly. 2nd grade through college.","wesbite":"https://www.mathcelebrity.com/online-math-tutor.php","type":"Educational / Fun Resources"},
-{"description":"Enterprise will waive underage fees for college students age 18-24.","wesbite":"https://www.enterprise.com/en/car-rental/deals/young-driver.html","type":"Food / Misc"},
-{"description":"Entertaining & educational videos for all levels and subjects","wesbite":"https://www.izzit.org/index.php","type":"Educational / Fun Resources"},
-{"description":"Every course you could possibly want to homeschool for high school","wesbite":"school https://allinonehighschool.com","type":"Educational / Fun Resources"},
-{"description":"Every course you could possibly want to homeschool preschool – 8","wesbite":"8 https://allinonehomeschool.com","type":"Educational / Fun Resources"},
-{"description":"Experiments that you can do at home ","wesbite":"https://www.stevespanglerscience.com/lab/experiments/","type":"Educational / Fun Resources"},
-{"description":"Explore the surface of Mars on the Curiosity Rover.","wesbite":"https://accessmars.withgoogle.com/","type":"Educational / Fun Resources"},
-{"description":"Farmer’s almanac for kids… Date, weather, moon phase, etc.","wesbite":"https://www.almanac.com/kids","type":"Educational / Fun Resources"},
-{"description":"Fave kids books read by famous people","wesbite":"https://www.storylineonline.net/","type":"Stuff For Kiddos"},
-{"description":"Find and fix learning gaps","wesbite":"https://www.mobymax.com/","type":"Educational / Fun Resources"},
-{"description":"For fitness, you could add that all Down Dog yoga/workout apps are free until May 1st", "wesbite":"https://twitter.com/downdogapp/status/1243524188184461312?s=21","type":"Fitness"},
-{"description":"For students to practice and master whatever they are learning.","wesbite":"https://quizlet.com/","type":"Educational / Fun Resources"},
-{"description":"Foreign languages","wesbite":"https://www.duolingo.com/","type":"Educational / Fun Resources"},
-{"description":"Fractions practice","wesbite":"http://www.mathchimp.com/freddysfractions.php","type":"Educational / Fun Resources"},
-{"description":"Free Access to Academic Adventures for Kids in 3rd grade thru 8th grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF","wesbite":"https://www.adventureacademy.com/redeem/","type":"Stuff For Kiddos"},
-{"description":"Free Access to Reading IQ for Kids in Preschool through 6th Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF","wesbite":"https://www.readingiq.com/redeem/","type":"Stuff For Kiddos"},
-{"description":"Free at-home kids yoga lesson plans ","wesbite":"https://littletwistersyoga.com/online-store/","type":"Stuff For Kiddos"},
-{"description":"Free Children Books on Google play", "wesbite":"https://play.google.com/store/books/collection/cluster?clp=2gETCg9zZXNhbWUgd29ya3Nob3AQBQ%3D%3D:S:ANO1ljKfKFU&gsr=ChbaARMKD3Nlc2FtZSB3b3Jrc2hvcBAF:S:ANO1ljJPUNo","type":"Stuff For Kiddos"},
-{"description":"Free Early Learning Academy for Kids from Pre-K to 2nd Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF","wesbite":"https://www.abcmouse.com/Redeem","type":"Stuff For Kiddos"},
-{"description":"free interactive ebooks for kids and teens, most libraries have an account with this service", "wesbite":"https://www.tumblebooks.com/","type":"Stuff For Kiddos"},
-{"description":"Free printable K-8 Reading and Math activity packs (available in English and Spanish)","wesbite":"https://www.curriculumassociates.com/supporting-students-away-from-school","type":"Educational / Fun Resources"},
-{"description":"Free Printables for PreK-2nd Grade","wesbite":"https://www.teacherspayteachers.com/Store/Literacy-With-The-Littles/Price-Range/Free","type":"Educational / Fun Resources"},
-{"description":"Free printables library with activities for children 0-6","wesbite":"https://www.littlesparkcompany.com/printables-library","type":"Educational / Fun Resources"},
-{"description":"Free science lessons during school closures.","wesbite":"https://mysteryscience.com/school-closure-planning","type":"Educational / Fun Resources"},
-{"description":"Free stories online ages 3-12","wesbite":"https://www.freechildrenstories.com/","type":"Stuff For Kiddos"},
-{"description":"Free videos from around the world from grade 3-12","wesbite":"https://www.projectexplorer.org/","type":"Educational / Fun Resources"},
-{"description":"From rainbows to tornadoes and winter storms to tsunamis, meteorologist Crystal Wicker breaks down the fascinating world of weather.","wesbite":"http://www.weatherwizkids.com/","type":"Educational / Fun Resources"},
-{"description":"Fun games, recipes, crafts, activities ","wesbite":"https://www.highlightskids.com/","type":"Stuff For Kiddos"},
-{"description":"Games to get “into the book”","wesbite":"https://reading.ecb.org/","type":"Educational / Fun Resources"},
-{"description":"Games, quizzes and fact sheets take kids on a journey through time.","wesbite":"https://www.bbc.co.uk/history/forkids/","type":"Educational / Fun Resources"},
-{"description":"Geography and animals","wesbite":"https://kids.nationalgeographic.com/","type":"Stuff For Kiddos"},
-{"description":"Geometry","wesbite":"https://www.canfigureit.com/","type":"Educational / Fun Resources"},
-{"description":"Get your kids listening to various stories for free via Audible Stories","wesbite":"https://stories.audible.com/start-listen","type":"No Paywalls"},
-{"description":"Golds Gym is offering free access to its app, Goldsamp, until the end of May","wesbite":"https://www.goldsgym.com/anywhere/","type":"Fitness"},
-{"description":"GoNoodle has free games for kids to keep them moving and thinking. Great for indoor recess, home school, etc.", "wesbite":"https://www.gonoodle.com/","type":"Stuff For Kiddos"},
-{"description":"Grammar practice for middle grades","wesbite":"https://www.classroomcereal.com/","type":"Educational / Fun Resources"},
-{"description":"Guide to gardening for kids","wesbite":"https://web.extension.illinois.edu/firstgarden/","type":"Educational / Fun Resources"},
-{"description":"Hands on Elem science videos","wesbite":"https://www.backpacksciences.com/science-simplified","type":"Educational / Fun Resources"},
-{"description":"Helps kids learn to appreciate the arts by providing them with the opportunity to play games, conduct investigations, and explore different forms of art.","wesbite":"https://artsology.com/","type":"Educational / Fun Resources"},
-{"description":"High school chemistry topics","wesbite":"https://www.acs.org/content/acs/en/education/resources/highschool/chemmatters/articles-by-topic.html","type":"Educational / Fun Resources"},
-{"description":"Higher level math series… online video series with detailed solutions to more than a thousand publicly-released College Board SAT Math, Subject Test Math Level 1, and Subject Test Math Level 2 problems.","wesbite":"https://www.youtube.com/channel/UCbQoCpvYRYRkRRvsObOPHaA?reload=9","type":"Educational / Fun Resources"},
-{"description":"Hundreds of printable educational worksheets for free.","wesbite":"https://www.worksheetfun.com/","type":"Educational / Fun Resources"},
-{"description":"Illustrated recipes designed to help kids age 2-12 cook with their grown-ups. Recipes encourage culinary skills, literacy, math, and science.","wesbite":"https://www.nomsterchef.com/nomster-recipe-library","type":"Stuff For Kiddos"},
-{"description":"Immerse yourself in cryptography ","wesbite":"https://www.cryptoclub.org/","type":"Educational / Fun Resources"},
-{"description":"Improve your typing skills while competing in fast-paced races with up to 5 typers from around the world.","wesbite":"https://www.nitrotype.com/","type":"Educational / Fun Resources"},
-{"description":"Indoor Activities for busy toddlers","wesbite":"https://busytoddler.com/2020/03/indoor-activities/","type":"Educational / Fun Resources"},
-{"description":"Innerbody explores the 11 bodily systems in depth. With interactive models and detailed explanations, this website will help them learn more about the internal mechanics of the amazing human body.","wesbite":"https://www.innerbody.com/htm/body.html","type":"Educational / Fun Resources"},
-{"description":"Interactive games based on the book series ","wesbite":"https://www.magictreehouse.com/","type":"Educational / Fun Resources"},
-{"description":"Interactive video earth science based curriculum supplement.","wesbite":"https://www.everyday-earth.com/","type":"Educational / Fun Resources"},
-{"description":"Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.","wesbite":"https://www.musictheory.net/","type":"Educational / Fun Resources"},
-{"description":"Jamm is a video call platform that’s offering 4 months for free","wesbite":"https://jammhq.typeform.com/to/m0mbZw","type":"Educational / Fun Resources"},
-{"description":"JetBlue: JetBlue has suspended change and cancel fees for all new flight bookings made between March 6, 2020 and March 31, 2020 for travel through September 8, 2020. The change/cancel fees suspension still applies for bookings made between February 27, 2020 and March 5, 2020 for travel through June 1, 2020.","wesbite":"","type":"Major Domestic Airlines"},
-{"description":"Just explore, have fun, and learn some science along the way. ","wesbite":"https://thehappyscientist.com/","type":"Educational / Fun Resources"},
-{"description":"K-5 curriculum that builds deep understanding and a love of learning math for all students","wesbite":"https://www.zearn.org/","type":"Educational / Fun Resources"},
-{"description":"K-5th Science lessons","wesbite":"https://mysteryscience.com/","type":"Educational / Fun Resources"},
-{"description":"K-8 online math program that looks at how a student is solving problems to adjust accordingly and build a unique learning path for them.","wesbite":"https://www.dreambox.com/at-home","type":"Educational / Fun Resources"},
-{"description":"Karate online training for kids", "wesbite":"https://www.karatelessonsonline.com/](https://www.karatelessonsonline.com/","type":"Stuff For Kiddos"}, 
-{"description":"Keyboarding practice","wesbite":"https://www.typing.com/ or https://www.typingclub.com/","type":"Educational / Fun Resources"},
-{"description":"Kid-friendly workouts — choose from Strength for Kids, Agility for Kids, Flexibility and Balance for Kids, Warm-Up for Kids, Cooldown for Kids, Stand Up and Move for Kids, OR create your own custom kid workout.","wesbite":"https://app.sworkit.com/collections/kids-workouts","type":"Educational / Fun Resources"},
-{"description":"Kids Think Design explores careers in fashion design, graphic design, interior design, book design, product design, film and theatre, architecture, animation, and environmental design.","wesbite":"http://www.kidsthinkdesign.org/","type":"Educational / Fun Resources"},
-{"description":"kinedu offers developmental activities for babies/infants and is currently offering its services for free", "wesbite":"https://www.kinedu.com/","type":"Stuff For Kiddos"},
-{"description":"Learn all about cells ","wesbite":"https://www.cellsalive.com/","type":"Educational / Fun Resources"},
-{"description":"Learn all about earthquakes","wesbite":"https://earthquake.usgs.gov/learn/kids/","type":"Educational / Fun Resources"},
-{"description":"Learn all about the periodic table","wesbite":"https://www.chemicool.com/","type":"Educational / Fun Resources"},
-{"description":"Lets kids play instruments online. Instruments include the guitar, piano, pan flute, drums, and bongos.","wesbite":"https://www.virtualmusicalinstruments.com/","type":"Educational / Fun Resources"},
-{"description":"Life skills curriculum for students in grades K-12. Their resources include strategies for teaching social and emotional skills.","wesbite":"https://www.overcomingobstacles.org/","type":"Educational / Fun Resources"},
-{"description":"LinkedIn is offering several very informative courses for free. Courses on time management, productivity tips, managing stress, learning various video platforms and software & more!","wesbite":"https://www.linkedin.com/learning/paths/remote-working-setting-yourself-and-your-teams-up-for-success?u=104","type":"Educational / Fun Resources"},
-{"description":"Lunch doodles with Mo Willems every weekday at 1PM ET. Recorded drawing sessions for kids, about 20 min each", "wesbite":"https://www.kennedy-center.org/education/mo-willems/","type":"Stuff For Kiddos"},
-{"description":"Magic Spell is a carefully crafted spelling","wesbite":"adventure. https://brainbox.games","type":"Educational / Fun Resources"},
-{"description":"Many states (New York included) and mortgage companies are offering 1 to 6 months of no mortgage payment requirements. Contact your mortgage provider to see what they’re offering and if you qualify.","wesbite":"","type":"Credit Cards/Finance"},
-{"description":"Math and language games","wesbite":"https://www.arcademics.com/","type":"Educational / Fun Resources"},
-{"description":"Math and logic problems for ages 5 and up to adult","wesbite":"https://www.aplusclick.org/","type":"Educational / Fun Resources"},
-{"description":"Math and reading games","wesbite":"https://www.abcya.com/","type":"Educational / Fun Resources"},
-{"description":"Math and Reading games","wesbite":"https://www.funbrain.com/","type":"Educational / Fun Resources"},
-{"description":"Math as a fun part of your daily family routine","wesbite":"http://bedtimemath.org/","type":"Educational / Fun Resources"},
-{"description":"Math games galore","wesbite":"https://gridclub.com/","type":"Educational / Fun Resources"},
-{"description":"Math Games, Logic Puzzles and Brain Builders","wesbite":"https://www.mathplayground.com/","type":"Educational / Fun Resources"},
-{"description":"Math practice from counting to algebra and geometry","wesbite":"http://www.mathscore.com/","type":"Educational / Fun Resources"},
-{"description":"Math practice","wesbite":"https://xtramath.org/#/home/index","type":"Educational / Fun Resources"},
-{"description":"Math Videos with lessons, real life uses of math, famous actors ","wesbite":"https://www.hmhco.com/math-at-work","type":"Educational / Fun Resources"},
-{"description":"McHarper Manor is offering free daily arts and crafts classes", "wesbite":"https://www.facebook.com/McHarperManor/","type":"Stuff For Kiddos"},
-{"description":"MeeroDrop is a visual content sharing site that’s now offering large file transfers for free. You’ll be able to access these files for 3 months for free.","wesbite":"https://www.meerodrop.com/en/","type":"Educational / Fun Resources"},
-{"description":"Mint Mobile: New and existing customers can get Unlimited 4G LTE Data for free.","wesbite":"https://www.mintmobile.com/unlimited/?","type":"Phone and Internet"},
-{"description":"Miscellaneous games for all subjects k-8","wesbite":"https://www.funbrain.com/","type":"Educational / Fun Resources"},
-{"description":"Modern States is offering Freshman Year for Free. Take tuition-free, high quality courses online from top institutions for college credit.", "wesbite":"https://modernstates.org/","type":"Educational / Fun Resources"},
-{"description":"Movement and mindfulness videos created by child development experts.","wesbite":"https://www.gonoodle.com/","type":"Educational / Fun Resources"},
-{"description":"Music is for everyone ","wesbite":"https://musiclab.chromeexperiments.com/Experiments","type":"Educational / Fun Resources"},
-{"description":"Music practice transformed","wesbite":"https://www.smartmusic.com/","type":"Educational / Fun Resources"},
-{"description":"National Geographic Young Explorers is a magazine designed specifically for kindergarten and first grade students. Children can listen to the magazine being read to them as they follow along with the highlighted text.","wesbite":"https://ngexplorer.cengage.com/ngyoungexplorer/index.html","type":"Stuff For Kiddos"},
-{"description":"NBA League Pass will be offered for free thru April 22nd.","wesbite":"https://www.nba.com/nba-fan-letter-league-pass-free-preview","type":"No Paywalls"},
-{"description":"News and more for kids ","wesbite":"https://www.youngzine.org/","type":"Educational / Fun Resources"},
-{"description":"Next Generation Science video game focused on middle school where students directly engage in science phenomena as they solve problems.","wesbite":"https://www.tytoonline.com/","type":"Educational / Fun Resources"},
-{"description":"NFL will offer fans free access to NFL Game Pass for the next 2 months!","wesbite":"http://www.nfl.com/news/story/0ap3000001106855/article/nfl-offers-fans-free-access-to-nfl-game-pass","type":"No Paywalls"},
-{"description":"NGAkids interactives offer an entertaining and informative introduction to art and art history.","wesbite":"https://www.nga.gov/education/kids.html","type":"Educational / Fun Resources"},
-{"description":"Nike Is Offering Free Workouts on Its NTC App as the Coronavirus Forces People Inside", "wesbite":"https://www.yahoo.com/lifestyle/nike-offering-free-workouts-ntc-191253078.html","type":"Fitness"},
-{"description":"No need to travel to one of the Smithsonian’s zoos or museums — this website brings your child everything from live video of the National Zoo to the Smithsonian Learning Lab right to their screen","wesbite":"https://www.si.edu/kids","type":"Educational / Fun Resources"},
-{"description":"Novel Effect makes storytime a little more fun for kids (and grown-ups too!) As you read out loud from print books (or ebooks!) music, sound effects, and character voices play at just the right moment, adjusting and responding to your voice","wesbite":"https://noveleffect.com/","type":"Educational / Fun Resources"},
-{"description":"Online curriculum that builds better writers.","wesbite":"https://www.noredink.com/","type":"Educational / Fun Resources"},
-{"description":"Online digital coloring pages","wesbite":"https://www.thecolor.com/","type":"Educational / Fun Resources"},
-{"description":"Online education program for toddler through high school…","wesbite":"https://www.khanacademy.org/","type":"Educational / Fun Resources"},
-{"description":"Online history classes for all ages preteen through adults","wesbite":"https://school.bighistoryproject.com/bhplive","type":"Educational / Fun Resources"},
-{"description":"Online homeschool platform & curriculum for Pre-K to 12th grade. All main subjects are covered, plus extra curriculum courses.","wesbite":"http://discoveryk12.com/dk12/","type":"Educational / Fun Resources"},
-{"description":"Online photograph jigsaw puzzles You can set the pieces from 6-1000+","wesbite":"https://www.jigsawexplorer.com/","type":"Educational / Fun Resources"},
-{"description":"Peleton is offering an extended 90-day free trial to its at-home workouts application during the quarantine. The in-app workouts don’t require you own any Peloton equipment, and include yoga, HIIT, stretching, and other categories. Download the Peleton app for free in the App Store or Play Store.","wesbite":"https://www.marketwatch.com/story/free-workouts-from-peloton-nike-and-others-to-help-you-stay-active-during-your-quarantine-2020-03-27","type":"Fitness"},
-{"description":"Phonics and learning to read ","wesbite":"https://readingeggs.com","type":"Educational / Fun Resources"},
-{"description":"Phonics skills ","wesbite":"https://www.starfall.com/h/","type":"Educational / Fun Resources"},
-{"description":"Phonics worksheets for kids","wesbite":"https://www.funfonix.com/","type":"Educational / Fun Resources"},
-{"description":"Pinna is a streaming service for podcasts, music, and audiobooks for kids ages 3-12 and is offering a free 60 days", "wesbite":"https://pinna.fm/","type":"Stuff For Kiddos"},
-{"description":"Planet Fitness is offering Free in-home workouts for everyone. Workouts will be led by trainers and surprise celebrity guests. If you miss the live class, you can come back and watch it later.","wesbite":"https://www.wmur.com/article/planet-fitness-offering-daily-free-livestreamed-fitness-classes-to-assist-social-distancing/31792493","type":"Fitness"},
-{"description":"Play games and learn all about animals","wesbite":"https://switchzoo.com/","type":"Educational / Fun Resources"},
-{"description":"Play with fave show characters and learn too","wesbite":"https://pbskids.org/","type":"Educational / Fun Resources"},
-{"description":"Plex Makes Live TV Free for 3 Months", "wesbite":"https://www.entrepreneur.com/article/348267","type":"Food / Misc"},
-{"description":"Poetry and music","wesbite":"https://www.thewell.world/mindful-music/mindful-poetry-moments","type":"Educational / Fun Resources"},
-{"description":"PreK – 5 games for all subjects","wesbite":"https://www.turtlediary.com/","type":"Educational / Fun Resources"},
-{"description":"PreK-12 digital media service with more than 30,000 learning materials","wesbite":"https://www.pbslearningmedia.org/","type":"Educational / Fun Resources"},
-{"description":"Printable board games, activities and more for phonics and reading all using evidence-based methods. Can be customized to any student’s needs including creating flashcards for other subjects.","wesbite":"https://dogonalogbooks.com/printables/","type":"Educational / Fun Resources"},
-{"description":"Prodigies is a colorful music curriculum for kids 1-12 that will teach your kids how to play their first instrument, how to sing in tune & how to understand the language of music! 21 for free","wesbite":"https://prodigiesmusic.com/","type":"Stuff For Kiddos"},
-{"description":"Prodigy Math has free video game style math learning and questions. " , "wesbite":"https://www.prodigygame.com/ ","type":"Educational / Fun Resources"},
-{"description":"Prodigy Math has free video game style math learning and questions.","wesbite":"https://www.prodigygame.com/","type":"Educational / Fun Resources"},
-{"description":"QuaverMusic is offering free access to general music activities to all impacted schools, including free student access at-home","wesbite":"https://www.quavermusic.com/info/at-home-resources/","type":"Educational / Fun Resources"},
-{"description":"Quick & easy at home projects curated for kids 2 and up","wesbite":"https://www.kiwico.com/kids-at-home","type":"Educational / Fun Resources"},
-{"description":"Randomly generates 356,300,262,144 story starters","wesbite":"https://thestorystarter.com/","type":"Educational / Fun Resources"},
-{"description":"Read, play games, and hang out with Dr. Seuss","wesbite":"https://www.seussville.com/","type":"Educational / Fun Resources"},
-{"description":"Reading passages for grades 3-12, with reading comprehension and discussion questions.","wesbite":"https://www.commonlit.org/","type":"Educational / Fun Resources"},
-{"description":"ReadWorks is an online resource of reading passages and lesson plans for students of all levels K-12.","wesbite":"https://www.readworks.org/","type":"Educational / Fun Resources"},
-{"description":"Resource of learning materials and work sheets on Google Drive","wesbite":"https://drive.google.com/drive/u/0/folders/1hCIG-PgDCvlpqPiHAmpxsOHP8KMDMPlg","type":"No Paywalls"},
-{"description":"Resource section includes free flashcards, coloring pages, worksheets, and other resources for children, teachers, and parents.","wesbite":"https://supersimple.com/","type":"Educational / Fun Resources"},
-{"description":"Resources for AP students including live reviews, live trivia, and study guides!","wesbite":"https://app.fiveable.me/","type":"Educational / Fun Resources"},
-{"description":"Resources for AP","wesbite":"students https://marcolearning.com","type":"Educational / Fun Resources"},
-{"description":"Resources for Spanish practice ","wesbite":"https://www.difusion.com/campus/","type":"Educational / Fun Resources"},
-{"description":"Scads of free resources, games, learning resources, and lesson plans for teaching personal finance","wesbite":"https://www.ngpf.org/","type":"Educational / Fun Resources"},
-{"description":"Scholastic has setup a “learn from home” website which will offer free daily courses for kids stuck at home because of school cancellations.","wesbite":"https://classroommagazines.scholastic.com/support/learnathome.html","type":"Stuff For Kiddos"},
-{"description":"Science and math labs and simulations","wesbite":"https://phet.colorado.edu/","type":"Educational / Fun Resources"},
-{"description":"Science podcasts to listen to with your kids","wesbite":"https://medium.com/kidslisten/19-great-science-podcasts-you-can-listen-to-with-kids-6fe46ac506b8#.rb23iuaw6","type":"Educational / Fun Resources"},
-{"description":"Science projects that can be completed with or without Internet access https://sciencespot.net/Pages/classhome html","wesbite":"(https://sciencespot","type":"Educational / Fun Resources"},
-{"description":"Science simulations, scientist profiles, and other digital resources for middle school science and high school biology","wesbite":"https://sepuplhs.org/","type":"Educational / Fun Resources"},
-{"description":"Science, Math, Social Studies","wesbite":"https://www.ck12.org/student/","type":"Educational / Fun Resources"},
-{"description":"Scratch draws students of all types into coding and lays a foundation for future learning.","wesbite":"https://scratch.mit.edu/","type":"Educational / Fun Resources"},
-{"description":"Short videos about numbers that help kids explore complex math topics and make math more fun.","wesbite":"https://www.numberphile.com/","type":"Educational / Fun Resources"},
-{"description":"Short videos and readings that answer various burning questions for students. There are vocabulary challenges and comprehension questions.","wesbite":"http://wonderopolis.org/","type":"Educational / Fun Resources"},
-{"description":"Sight reading and sight singing practice exercises.","wesbite":"https://www.sightreadingfactory.com/","type":"Educational / Fun Resources"},
-{"description":"Some leasing companies are offering to push off payments for 1 to 3 months. In return, they’ll extend your lease by that amount of time and have you pay regular payments then, essentially giving you an extra 1 to 3 months for free. Your max miles for the lease though will remain the same. Contact your auto see what they’re offering.","wesbite":"","type":"Credit Cards/Finance"},
-{"description":"Southwest: They always offer free flight changes so nothing changes for them. Any difference in fare will apply.","wesbite":"","type":"Major Domestic Airlines"},
-{"description":"Space Racers was created by NASA to teach kids STEAM... uhm... stuff!", "wesbite":"https://www.spaceracers.com/grownups/) was created by NASA to teach kids STEAM... uhm... stuff!","type":"Stuff For Kiddos"},
-{"description":"Space science for kiddos","wesbite":"https://www.nasa.gov/kidsclub/index.html","type":"Educational / Fun Resources"},
-{"description":"Spelling 1-4 grade","wesbite":"https://www.spellingtraining.com/","type":"Educational / Fun Resources"},
-{"description":"Spellingcity is free right now with code VSCFree90","wesbite":"https://www.spellingcity.com/","type":"Educational / Fun Resources"},
-{"description":"Spider-Man will send your child a free voice message", "wesbite":"https://deadline.com/2020/03/spider-man-spider-verse-actor-free-voice-messages-peter-parker-quarantined-kids-1202888400/","type":"Stuff For Kiddos"},
-{"description":"Sprint is offering unlimited data for all users and waiving late fees for next 30-60 days","wesbite":"","type":"Phone and Internet"},
-{"description":"Starbucks will give a free tall hot or iced brewed coffee to anyone that identifies themselves as a front line responder from today through May 3rd","wesbite":"","type":"Food / Misc"},
-{"description":"Starting Friday, the National Hockey League is making all games played during the suspended 2019-2020 regular season", "wesbite":"https://www.nhl.com/news/nhl-to-keep-fans-connected-during-pause/c-316219230", "type":"Phone and Internet"},
-{"description":"Storytime Froooom Space", "wesbite":"https://storytimefromspace.com/","type":"Stuff For Kiddos"},
-{"description":"T-Mobile & Metro Active Customers: All current T-Mobile and Metro by T-Mobile customers who have plans with data will have unlimited smartphone data for the next 60 days (excluding roaming).","wesbite":"https://www.t-mobile.com/news/t-mobile-update-on-covid-19-response?", "type":"Phone and Internet"},
-{"description":"T-Mobile is offering all current customers unlimited data and waiving late fees for next 30-60 days","wesbite":"","type":"Phone and Internet"},
-{"description":"Teaches students how to write a paragraph through interactive online tutorial","wesbite":"http://www.paragraphpunch.com/","type":"Educational / Fun Resources"},
-{"description":"Test Prep for SAT, ACT, etc.","wesbite":"https://www.bwseducationconsulting.com/handouts.php","type":"Educational / Fun Resources"},
-{"description":"Tests kids’ geography skills. Using images from Google’s Street View, it plops players down in the middle of the street and asks them to figure out where they are.","wesbite":"https://www.geoguessr.com/","type":"Educational / Fun Resources"},
-{"description":"The Athletic","wesbite":"https://theathletic.com/1669234/2020/03/16/covid-19-and-sports-latest-news-and-information-updated/","type":"No Paywalls"},
-{"description":"The Guardian","wesbite":"https://www.theguardian.com/world/coronavirus-outbreak","type":"No Paywalls"},
-{"description":"The Los Angeles Times","wesbite":"https://www.latimes.com/california/liveblog/coronavirus-live-updates","type":"No Paywalls"},
-{"description":"The New York Times","wesbite":"https://www.nytimes.com/news-event/coronavirus","type":"No Paywalls"},
-{"description":"The San Diego Zoo has a website just for kids with amazing videos, activities, and games. Enjoy the tour!","wesbite":"https://kids.sandiegozoo.org/","type":"Stuff For Kiddos"},
-{"description":"The Shurley English program for grades K-8 provides a clear, logical, and concrete approach to language arts.","wesbite":"https://www.shurley.com/","type":"Educational / Fun Resources"},
-{"description":"The Theta Music Trainer offers a series of online courses and games for ear training and music theory.","wesbite":"https://trainer.thetamusic.com/en","type":"Educational / Fun Resources"},
-{"description":"The Washington Post","wesbite":"https://www.washingtonpost.com/coronavirus/","type":"No Paywalls"},
-{"description":"This Canadian site FarmFood 360 offers 11 Virtual Tours of farms from minks, pigs, and cows, to apples and eggs.","wesbite":"https://www.farmfood360.ca/","type":"Educational / Fun Resources"},
-{"description":"This educational website hosted by the Smithsonian Museum takes a deep dive into ocean life.","wesbite":"https://ocean.si.edu/","type":"Educational / Fun Resources"},
-{"description":"This interactive website, hosted by the U.S. Government Publishing Office, allows your child to see the ins and outs of the U.S. government by taking a series of learning adventures with none other than Benjamin Franklin.","wesbite":"https://bensguide.gpo.gov/","type":"Educational / Fun Resources"},
-{"description":"This NASA initiative covers a wide range of topics including weather, climate, atmosphere, water, energy, plants, and animals.","wesbite":"https://climatekids.nasa.gov/","type":"Educational / Fun Resources"},
-{"description":"This Virtual Tour of the Great Wall of China is beautiful and makes history come to life.","wesbite":"https://www.thechinaguide.com/destination/great-wall-of-china","type":"Educational / Fun Resources"},
-{"description":"Toddler and preschool age","wesbite":"(https://preschoolinspirations.com/","type":"Educational / Fun Resources"},
-{"description":"Tons and tons and tons of games some learning some just fun","wesbite":"https://www.crazygames.com/","type":"Educational / Fun Resources"},
-{"description":"Tons of free classes from leading universities and companies","wesbite":"https://www.coursera.org/","type":"Educational / Fun Resources"},
-{"description":"Tour Yellowstone National Park!","wesbite":"https://www.nps.gov/yell/learn/photosmultimedia/virtualtours.htm","type":"Educational / Fun Resources"},
-{"description":"Travel to Paris, France to see amazing works of art at The Louvre with this virtual field trip.","wesbite":"https://www.louvre.fr/en/visites-en-ligne","type":"Educational / Fun Resources"},
-{"description":"U-Haul is offering college students 30 days of free storage.","wesbite":"https://www.uhaul.com/Articles/About/20625/College-Students-U-Haul-Offers-30-Days-Free-Self-Storage-amid-Coronavirus-Outbreak/","type":"Food / Misc"},
-{"description":"Uber Eats will waive delivery fees on all orders amid the quarantine. Service charges will still apply though.","wesbite":"https://www.cnet.com/news/uber-eats-waives-delivery-fees-amid-coronavirus-outbreak/","type":"Food / Misc"},
-{"description":"United: When you book a flight between March 3 and March 31, 2020, you can change it for free over the next 12 months. Any difference in fare will apply","wesbite":"","type":"Major Domestic Airlines"},
-{"description":"Unity learn is giving away free unity learn premium for 3 month","wesbite":"https://learn.unity.com/","type":"Educational / Fun Resources"},
-{"description":"Various arts and crafts, lessons and more for free from Crayola","wesbite":"https://created.crayola.com/homelearning","type":"Educational / Fun Resources"},
-{"description":"Verizon has added 15GB of data to plans at No Charge for use from 3/25-4/30.", "wesbite":"http://m.vzw.com/m/covid19faqs","type":"Phone and Internet"},
-{"description":"Verizon waiving activation and upgrade fees when you purchase through the following channels listed on site","wesbite":"https://www.verizonwireless.com/support/covid-19-faqs/","type":"Phone and Internet"},
-{"description":"Verizon: Verizon will waive late fees and keep residential and small business customers connected if negatively impacted by global crisis.","wesbite":"https://www.verizon.com/about/news/verizon-help-customers-and-small-businesses","type":"Phone and Internet"},
-{"description":"Vocabulary, grammar, listening activities and games in Spanish, French, Italian, German, Portuguese, Korean, and Latin.","wesbite":"https://conjuguemos.com/","type":"Educational / Fun Resources"},
-{"description":"Voice based learning… learn through Alexa","wesbite":"https://bamboolearning.com/resources","type":"Educational / Fun Resources"},
-{"description":"Wall Street Journal","wesbite":"https://www.wsj.com/news/collection/coronavirus0312-256f2943","type":"No Paywalls"},
-{"description":"Website allows students to play basic games to reinforce math skills and compete against the computer or others","wesbite":"https://www.mangahigh.com/en-us/","type":"Educational / Fun Resources"},
-{"description":"Work on the 8 parts of speech","wesbite":"https://www.grammaropolis.com/","type":"Educational / Fun Resources"},
-{"description":"WSECU is offering free skip a pay, fees waived, emergency loans", "wesbite":"https://wsecu.org/resources/covid-19-member-updates","type":"Credit Cards/Finance"},
-{"description":"Your child can play games, learn fun facts, and find out how to turn coin collecting into a hobby.","wesbite":"https://www.usmint.gov/learn/kids","type":"Educational / Fun Resources"},
-{"description":"Zoom Video is offering free video conferences for schools.","wesbite":"https://zoom.us/docs/ent/school-verification.html","type":"Food / Misc"},
-{"description":"WWE Network Is Free to Stream Amid Coronavirus Pandemic", "wesbite":" https://www.yahoo.com/entertainment/wwe-network-free-stream-amid-223925136.html","type":"Phone and Internet"},
-{"description":"A limited time offer of $15 for 2GB of data with unlimited talk and text will be available to new and existing customers with no activation fee. To get started on the $15 limited time offer", "wesbite":"www.att.com/prepaid","type":"Phone and Internet"},
-{"description":"An automatic 10GB per month of additional data for 60 days is being added temporarily to existing customers’ capped phone plans and for new customers who activate capped phone plans prior to April 26. [1] New customers activating capped phone plans after April 26 will temporarily receive an extra 10 GB of additional data for 30 days.", "wesbite":"https://www.wafb.com/2020/03/26/att-cricket-wireless-offering-special-deals-customers-amid-covid-pandemic/","type":"Phone and Internet"},
-{"description":"Customers with an Unlimited Plus plan with Mobile Hotspot data and new customers who activate on the Unlimited Plus plan prior to April 26 will temporarily receive 10GB of additional Mobile Hotspot per month for 60 days. New customers who activate after April 26 will temporarily receive an additional 10GB of data for 30 days.", "wesbite":"https://www.wafb.com/2020/03/26/att-cricket-wireless-offering-special-deals-customers-amid-covid-pandemic/","type":"Phone and Internet"},
-{"description":"The Internet Archive released the National Emergency Library that gives be public free access to over 1.4 million digital books.","wesbite":"https://archive.org/details/nationalemergencylibrary","type":"Educational / Fun Resources"},
-{"description":"Free sweetgreen for hospital workers and medical personnel", "wesbite":"https://www.instagram.com/p/B9zwnDmDHyf/","type":"Food / Misc"},
-{"description":"Work in a hospital? Stop by your local &Pizza restaurant for a free pizza. All you have to do is present a valid staff ID. Can't leave work? Text 200-03 #HERO to get your pie delivered.", "wesbite":"https://andpizza.com/tribefirst/","type":"Food / Misc"},
-{"description":"Starting tomorrow, March 14 - April 26, we'll be offering FREE DELIVERY on kfc.com", "wesbite":"https://www.instagram.com/p/B9rsTpmH9Tm/","type":"Food / Misc"},
-{"description":"Chipotle free delivery through the end of March. Any questions?", "wesbite":"https://www.instagram.com/p/B9whXysJ275/","type":"Food / Misc"},
-{"description":"It's MOE MONDAY ALL WEEK LONG with free delivery right to your home", "wesbite":"https://twitter.com/Moes_HQ/status/1239622272161402880?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1239622272161402880&ref_url=https%3A%2F%2Fwww.today.com%2Ffood%2Ffood-companies-give-away-meals-medical-workers-offer-free-delivery-t176164","type":"Food / Misc"},
-{"description":"Blaze Pi Day reward to all app users through the Blaze app, redeemable in-restaurant or online expiring 12/31/2020", "wesbite":"https://hq.blazepizza.com/promos/piday314","type":"Food / Misc"},
-{"description":"Headspace, the most popular meditation app, is offering a free subscription to ALL HEALTHCARE PROFESSIONALS","wesbite":"https://apps.apple.com/us/app/headspace-meditation-sleep/id493145008","type":"Fitness"},
-{"description":"Ten Percent Happier is offering free accounts for you guys","wesbite":"https://www.tenpercent.com/coronavirussanityguide","type":"Fitness"},
-{"description":"McDonalds is offering free coffee to healthcare workers","wesbite":"https://mashable.com/article/mcdonalds-pret-free-drinks-healthcare-workers/","type":"Food / Misc"},
-{"description":"If you have internet access you can watch all local television channels for free with this not-for-profit service: https://www.locast.org/ This free streaming service is available for the cities of Seattle, San Francisco, Los Angeles, Phoenix, Denver, Rapid City, Sioux Falls, Sioux City, Chicago, Dallas, Houston, Atlanta, Washington D.C., Baltimore, Philadelphia, New York, and Boston","wesbite":"https://www.locast.org/","type":"Phone and Internet"},
-{"description":"Startup based in Dublin offering over 10 courses for free on our online platform to teach kids how to code","wesbite":"https://www.roblogify.com/virtual-robotics-in-covid-19-making-our-courses-free/","type":"Educational / Fun Resources"},
-{"description":"Small Business Guidance and Loan Resources", "wesbite":"https://www.sba.gov/page/coronavirus-covid-19-small-business-guidance-loan-resources","type":"Emergency Assistance"},
-{"description":"Assistance for Service Workers", "wesbite":"https://ofwemergencyfund.org/help","type":"Emergency Assistance"},
-{"description":"Assistance for those in Student Loan Crisis", "wesbite":"https://crisishelp.bysavi.com/","type":"Emergency Assistance"},
-{"description":"Assistance for Bartenders", "wesbite":"https://www.usbgfoundation.org/beap","type":"Emergency Assistance"},
-{"description":"Assistance for Restaurant Workers", "wesbite":"https://rocunited.org/stop-the-spread/coronavirus-support/","type":"Emergency Assistance"},
-{"description":"Assistance for Musicians", "wesbite":"https://equalsound.org/musicians-corona-relief-fund-application/","type":"Emergency Assistance"},
-{"description":"Assistance for Authors", "wesbite":"https://authorsleaguefund.org/apply/","type":"Emergency Assistance"},
-{"description":"Assistance for CoVid-19 Positive tested Restaurant Workers", "wesbite":"https://calrestfoundation.org/restaurantscare/","type":"Emergency Assistance"},
-{"description":"Assistance for Domestic Workers", "wesbite":"https://domesticworkers.org/coronavirus-care-fund","type":"Emergency Assistance"},
-{"description":"Assistance for Freelance Artists", "wesbite":"https://covid19freelanceartistresource.wordpress.com/","type":"Emergency Assistance"},
-{"description":"Assistance for our Military and Families", "wesbite":"https://www.militaryonesource.mil/financial-legal/personal-finance/borrowing/coronavirus-financial-assistance","type":"Emergency Assistance"},
-{"description":"Assistance to all Veterans, Active Duty, Reserves and National Guard", "wesbite":"https://penfedfoundation.org/apply-for-assistance/coronavirus-emergency-financial-assistance/","type":"Emergency Assistance"},
-{"description":"Assistance for Painters, Printmakers, and Sculptors", "wesbite":"https://www.gottliebfoundation.org/emergency-grant","type":"Emergency Assistance"},
-{"description":"Capital One is offering many of the same suggestions, but added a “Frequently Asked Questions” page that deals with concerns that come up early in the virus crisis, most of them dealing with cancelled travel plans.", "wesbite":"https://www.capitalone.com/coronavirus/2/","type":"Credit Cards/Finance"},
-{"description":"CitiBank instituted a 30-day program that started March 9 for its retail customers to waive monthly service fees and penalties for early CD withdrawals. Citi’s small business customers also get monthly service fees and remote deposit capture fees waived as well as waived penalties for early CD withdrawal.", "wesbite":"https://online.citi.com/US/JRS/pands/detail.do?ID=covid19","type":"Credit Cards/Finance"},
-{"description":"U.S. Bank is offering two loans for personal accounts that may provide short-term solutions.","wesbite":"https://www.usbank.com/splash/covid-19.html","type":"Credit Cards/Finance"},
-{"description":"USDA FNS Disaster Assistance","wesbite":"https://www.fns.usda.gov/disaster/pandemic/covid-19","type":"Emergency Assistance"},
-{"description":"United Way's COVID-19 Community Response and Recovery Fund", "wesbite":"https://www.unitedway.org/recovery/covid19?utm_source=fundpage&utm_medium=web&utm_campaign=covid19&utm_content=learnmore","type":"Emergency Assistance"},
-{"description":"Catholic Charities USA", "wesbite":"https://www.catholiccharitiesusa.org/find-help/","type":"Emergency Assistance"},
-{"description":"Covid-19 State by State", "wesbite":"https://www.usbg.org/help/covid-19-state-by-state","type":"Emergency Assistance"},
-{"description":"All of 'Battlestar Galactica' has been made free to view on SyFy's website","wesbite":"https://www.syfy.com/battlestargalactica", "type":"No Paywalls"},
-{"description":"PBS KIDS Offers Free Resources During COVID-19 School Closures","wesbite":"https://www.animationmagazine.net/internet/pbs-kids-offers-free-resources-during-covid-19-school-closures/","type":"Stuff For Kiddos"},
-{"description":"SiriusXM, Howard Stern announce free access to streaming content through May 15","wesbite":"https://thehill.com/homenews/media/490342-siriusxm-howard-stern-announce-free-access-to-streaming-content-through-may-15","type":"No Paywalls"},
-{"description":"United Way of the Central Carolinas is providing relief to non-profits affected by the virus","wesbite":"https://app.mobilecause.com/vf/HELPCharMeck","type":"Emergency Assistance"}
+{
+    "tabledata":[
+       {
+          "description":"Free Access to Spectrum Broadband and Wi-Fi Internet Free For 60 Days for households with students",
+          "wesbite":"",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Free access for 30 days that will be extended as long as schools are still closed",
+          "wesbite":"https://go.brainpop.com/COVID19",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"2,500+ online courses from top institutions",
+          "wesbite":"https://www.edx.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"22 languages to learn",
+          "wesbite":"https://www.memrise.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"3 Free Weeks of Maker Stations to keep your children creating at home! Each challenge includes simple instructions using materials around the house, QR code video resources, and a student recording sheet.",
+          "wesbite":"bit.ly/freemakerstations",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"300,000+ FREE printable worksheets from toddlers to teens ",
+          "wesbite":"https://www.123homeschool4me.com/home-school-free-printables/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"35,000 pages of online content on the cultures and countries of the world.",
+          "wesbite":"https://www.countryreports.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"3D printing projects and Coding projects, involving math and other K-12 subjects ",
+          "wesbite":"https://www.instructables.com/member/EdgertonCenter/instructables/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"7,000 free videos in 13 subject",
+          "wesbite":"areas https://hippocampus.org",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"80+ do at home science activities",
+          "wesbite":"https://elementalscience.com/blogs/news/80-free-science-activities",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A collection of hundreds of free K-12 STEM resources, from standalone models and simulations to short activities and week long sequences of curriculum materials.",
+          "wesbite":"https://learn.concord.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A human visualization platform that allows students to explore the human body in really cool ways.",
+          "wesbite":"https://human.biodigital.com/login?returnUrl=/dashboard",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A large selection of fun songs to help teach preschool and kindergarten students",
+          "wesbite":"https://www.songsforteaching.com/preschoolkindergarten.htm",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A quick start resource to help families pull together a plan for surviving the next 1-2 months at home with their kids, but it can also be a time of slowing down and enjoying kids as they learn.",
+          "wesbite":"https://abetterwaytohomeschool.com/learning-at-home-everything-you-need-in-one-place.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A safe research site for elementary-level readers. They are offering — free 24/7 access. Username: Read, Password: Read",
+          "wesbite":"https://www.facts4me.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"A wide range of math content from middle school through AP Calculus.",
+          "wesbite":"https://deltamath.com/overview",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Adaptive curriculum in Math and ELA for Grades K-8",
+          "wesbite":"https://www.scootpad.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Adobe is offering free Creative Cloud apps and conferencing.",
+          "wesbite":"https://helpx.adobe.com/enterprise/kb/covid-19-education-labs.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Airbnb is offering free cancellations on most reservations",
+          "wesbite":"https://news.airbnb.com/extenuating-circumstances-policy-activated-around-the-world/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Alaskan Wildlife cams",
+          "wesbite":"(http://www.adfg.alaska.gov/index.cfm?adfg=viewing.webcams",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Alcumus is specifically designed to provide high-performing students with a challenging curriculum appropriate to their abilities",
+          "wesbite":"https://artofproblemsolving.com/alcumus",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Algebra games for kids",
+          "wesbite":"https://www.dragonboxapp.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"All sorts of learning here if you dig in https://www.google.com/earth/()",
+          "wesbite":"https://www.google.com/earth/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Allows students to type in any city, state, or country to view an archive of historical photographs and other documents. It’s a unique way to help them learn about history.",
+          "wesbite":"",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Amazon is also offering kids shows videos for free",
+          "wesbite":"https://amzn.to/2wBiVvq",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Amazon is offering 2 Months of Kindle Unlimited for Free! Previous Members are Eligible Too",
+          "wesbite":"https://www.amazon.com/kindle-dbs/promoLanding?tag=1426-20&promoCode=7cad7d39-c2cf-4e3d-9b17-4ebafbb03a41",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"American Airlines: American Airlines will waive the change fee only on published Non-Refundable Fare tickets. Tickets must be purchased between March 1, 2020 and March 31, 2020, with original travel between March 1, 2020 and January 30, 2021. Changes must be made prior to the departure of your original flight. Any difference in fare will apply",
+          "wesbite":"",
+          "type":"Major Domestic Airlines"
+       },
+       {
+          "description":"American Express will waive 2 months of payments without charging penalties or interest. However, if you use this benefit, you won’t be able to use that credit card or points until you opt out.",
+          "wesbite":"https://www.americanexpress.com/us/customer-service/financial-hardship.html",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Amphibian unit studies",
+          "wesbite":"https://premeditatedleftovers.com/naturally-frugal-mom/amphibians-unit-study-resources/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"An interactive way to learn history ",
+          "wesbite":"https://www.mission-us.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"An online physics problem and video bank designed for conceptual, standard, honors or AP1 physics.",
+          "wesbite":"https://www.positivephysics.org/home",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"AP News",
+          "wesbite":"https://apnews.com/",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"Apparently your family can Skype a scientist and ask them stuff",
+          "wesbite":"https://www.skypeascientist.com/for-families.html",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Apple Card holders will be allowed to skip their March payment without incurring interest by signing up for a Customer Assistance Program, Apple is informing its customers. To join the Customer Assistance Program, Apple Card customers can call an Apple support rep directly through the Apple Wallet app and ask to be added.",
+          "wesbite":"https://techcrunch.com/2020/03/16/you-can-ask-to-skip-your-apple-card-payment-for-march-apple-tells-customers/",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Ask Dr. Universe is a science-education project from Washington State University. Kids can send Dr. Universe any question they may have about history, geography, plants, animals, technology, engineering, math, culture, and more.",
+          "wesbite":"https://askdruniverse.wsu.edu/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"At home OT, PT, and ST resources designed to build skills in children through movement and play.",
+          "wesbite":"https://www.theottoolbox.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"At-Home Solution for TOEFL iBT ® Test and GRE ®General Test Amid Coronavirus Pandemic",
+          "wesbite":"https://news.ets.org/press-releases/ets-introduces-at-home-solution-for-toefl-ibt-test-and-gre-general-test-amid-coronavirus-pandemic/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"AT&T: AT&T is suspending broadband data caps for home internet customers. They’re also waiving late fees for next 30-60 days. They’ll also provide free access to its public WiFi hot spots.",
+          "wesbite":"https://www.theverge.com/2020/3/12/21177538/att-broadband-internet-data-cap-coronavirus-suspend",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Banzai exposes students to real-world financial dilemmas to teach them the importance of smart money management.",
+          "wesbite":"https://www.teachbanzai.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Biology",
+          "wesbite":"https://www.biologysimulations.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Brainscape offers over a million flashcard decks for every subject, entrance exam, and certification imaginable.",
+          "wesbite":"https://www.brainscape.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Burger King is offering free meals for children",
+          "wesbite":"https://nypost.com/2020/03/19/burger-king-giving-away-free-kids-meals-amid-coronavirus-outbreak/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Cambridge is offering free textbooks and until the end of May",
+          "wesbite":"https://www.cambridge.org/core/what-we-publish/textbooks/listing?aggs%5BproductSubject%5D%5Bfilters%5D=A57E10708F64FB69CE78C81A5C2A6555",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Carmen Sandiego videos, stories, and lessons for all subject areas ",
+          "wesbite":"https://www.carmensandiego.com/resources/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Charter will offer free Spectrum broadband and Wi-Fi access for 60 days to households with K-12 and/or college students who do not already have a Spectrum broadband subscription and at any service level up to 100 Mbps. To enroll call 1-844-488-8395. Installation fees will be waived for new student households.",
+          "wesbite":"",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Chase and other banks will offer 60 days of no late fees or interest for those impacted by the quarantine, call your bank to find out if you are eligible and what terms will apply.",
+          "wesbite":"https://www.chase.com/digital/resources/coronavirus?jp_cmp=rb/CV/off/stayconnected/na",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Chemistry",
+          "wesbite":"https://www.playmadagames.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Chevrolet, Buick, GMC and Cadillac owners get free On-Star and free in vehicle internet",
+          "wesbite":"https://www.onstar.com/us/en/onstar-cares/",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Classes for older teens or adults ",
+          "wesbite":"https://www.thegreatcoursesplus.com/lp/t1/freemo",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"ClickSchooling brings you daily recommendations by email for entertaining websites that help your kids learn.",
+          "wesbite":"https://clickschooling.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Coding for ages 4-10",
+          "wesbite":"https://www.kodable.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Coding with Star Wars",
+          "wesbite":"https://code.org/starwars",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Comcast/Xfinity: Comcast opens Xfinity WiFi Network Nationally for Free and Offers Unlimited Data for Free.",
+          "wesbite":"https://corporate.comcast.com/covid-19",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Cool Kid Facts gives your child access to educational videos, pictures, quizzes, downloadable worksheets, and infographics. They can use these to learn about geography, history, science, animals, and even the human body.",
+          "wesbite":"https://www.coolkidfacts.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Course sets (Levels 1–5) that combine and thoroughly cover phonics, reading, writing, spelling, literature, grammar, punctuation, art, and geography—all in one easy-to-use, beautiful course.",
+          "wesbite":"https://www.goodandbeautiful.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Crafts, activities, bulletin board designs, and finger plays for early education teachers and parents to use with kids.",
+          "wesbite":"http://www.preschoolexpress.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Crafts, activities, mazes, dot to dot, etc",
+          "wesbite":"https://www.allkidsnetwork.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Crafts, projects, science, recipes for young children",
+          "wesbite":"https://www.funology.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Critical Thinking resources for K-6 students",
+          "wesbite":"https://marketplace.mythinkscape.com/store/redtkids",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Crocs will be giving out 10,000 pairs of their shoes for FREE starting 3/26 12pm EST to healthcare workers.",
+          "wesbite":"https://crocs-us.xkpq.net/G9V0B",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Curricular content hub specifically designed for K-3 students.",
+          "wesbite":"https://pebblego.com/free-pebblego-capstone-interactive-access-school-closures",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"CVS and Walgreens: Both CVS and Walgreens will waive charges for home delivery of prescription medicines",
+          "wesbite":"https://www.forbes.com/sites/brucejapsen/2020/03/12/walgreens-joins-cvs-waiving-drug-delivery-fees-amid-coronavirus-crisis/#7e3d647e51e3",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Daily free science or cooking experiment to do",
+          "wesbite":"home.http://www.clubscikidzmd.com/blog/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Daily lessons and educational activities that kids can do on their own",
+          "wesbite":"https://www.superchargedschool.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Day-by-day projects to keep kids reading, thinking, and growing.",
+          "wesbite":"https://classroommagazines.scholastic.com/support/learnathome.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Delta: No Change Fees For All Tickets Purchased Between March 1 to 31, 2020. Ticket Can Be Changed One-Time To An Alternate Itinerary. Must Be Re-issued On/Before: February 28, 2021. Any difference in fare will apply.",
+          "wesbite":"",
+          "type":"Major Domestic Airlines"
+       },
+       {
+          "description":"Digital archive of history",
+          "wesbite":"https://www.bunkhistory.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Digital learning content for preschool through high school",
+          "wesbite":"https://www.curriki.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Duolingo: Learn a new language",
+          "wesbite":"https://www.duolingo.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Education for kids all topics",
+          "wesbite":"https://www.ducksters.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Educational brain breaks to help students review essential literacy and math skills, while getting in some exercise. Find over 900 videos to help your child keep learning at home and burn off some extra energy. Our site is best used for ages 4-8.",
+          "wesbite":"https://fluencyandfitness.com/register/school-closures/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Educational games K-12 ",
+          "wesbite":"https://www.breakoutedu.com/funathome",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Elem Math games, logic puzzles and educational resources",
+          "wesbite":"https://www.mathplayground.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Elem Math through 6th grade",
+          "wesbite":"https://boddlelearning.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Engaging reading game for grades 2-8 that combines strategy, engagement, and imaginative reading passages to create a fun, curriculum-aligned literacy game.",
+          "wesbite":"https://www.squigglepark.com/dreamscape/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Engineering challenges with things you have at home",
+          "wesbite":"https://thehomeschoolscientist.com/paper-structures-engineering-challenge/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Enter your math problem or search term, press the button, and they show you the step-by-step work and answer instantly. 2nd grade through college.",
+          "wesbite":"https://www.mathcelebrity.com/online-math-tutor.php",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Enterprise will waive underage fees for college students age 18-24.",
+          "wesbite":"https://www.enterprise.com/en/car-rental/deals/young-driver.html",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Entertaining & educational videos for all levels and subjects",
+          "wesbite":"https://www.izzit.org/index.php",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Every course you could possibly want to homeschool for high school",
+          "wesbite":"school https://allinonehighschool.com",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Every course you could possibly want to homeschool preschool – 8",
+          "wesbite":"8 https://allinonehomeschool.com",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Experiments that you can do at home ",
+          "wesbite":"https://www.stevespanglerscience.com/lab/experiments/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Explore the surface of Mars on the Curiosity Rover.",
+          "wesbite":"https://accessmars.withgoogle.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Farmer’s almanac for kids… Date, weather, moon phase, etc.",
+          "wesbite":"https://www.almanac.com/kids",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Fave kids books read by famous people",
+          "wesbite":"https://www.storylineonline.net/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Find and fix learning gaps",
+          "wesbite":"https://www.mobymax.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"For fitness, you could add that all Down Dog yoga/workout apps are free until May 1st",
+          "wesbite":"https://twitter.com/downdogapp/status/1243524188184461312?s=21",
+          "type":"Fitness"
+       },
+       {
+          "description":"For students to practice and master whatever they are learning.",
+          "wesbite":"https://quizlet.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Foreign languages",
+          "wesbite":"https://www.duolingo.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Fractions practice",
+          "wesbite":"http://www.mathchimp.com/freddysfractions.php",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free Access to Academic Adventures for Kids in 3rd grade thru 8th grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",
+          "wesbite":"https://www.adventureacademy.com/redeem/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free Access to Reading IQ for Kids in Preschool through 6th Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",
+          "wesbite":"https://www.readingiq.com/redeem/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free at-home kids yoga lesson plans ",
+          "wesbite":"https://littletwistersyoga.com/online-store/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free Children Books on Google play",
+          "wesbite":"https://play.google.com/store/books/collection/cluster?clp=2gETCg9zZXNhbWUgd29ya3Nob3AQBQ%3D%3D:S:ANO1ljKfKFU&gsr=ChbaARMKD3Nlc2FtZSB3b3Jrc2hvcBAF:S:ANO1ljJPUNo",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free Early Learning Academy for Kids from Pre-K to 2nd Grade. Use Promo Code: SCHOOL7771 or AOFLUNICEF",
+          "wesbite":"https://www.abcmouse.com/Redeem",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"free interactive ebooks for kids and teens, most libraries have an account with this service",
+          "wesbite":"https://www.tumblebooks.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free printable K-8 Reading and Math activity packs (available in English and Spanish)",
+          "wesbite":"https://www.curriculumassociates.com/supporting-students-away-from-school",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free Printables for PreK-2nd Grade",
+          "wesbite":"https://www.teacherspayteachers.com/Store/Literacy-With-The-Littles/Price-Range/Free",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free printables library with activities for children 0-6",
+          "wesbite":"https://www.littlesparkcompany.com/printables-library",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free science lessons during school closures.",
+          "wesbite":"https://mysteryscience.com/school-closure-planning",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free stories online ages 3-12",
+          "wesbite":"https://www.freechildrenstories.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Free videos from around the world from grade 3-12",
+          "wesbite":"https://www.projectexplorer.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"From rainbows to tornadoes and winter storms to tsunamis, meteorologist Crystal Wicker breaks down the fascinating world of weather.",
+          "wesbite":"http://www.weatherwizkids.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Fun games, recipes, crafts, activities ",
+          "wesbite":"https://www.highlightskids.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Games to get “into the book”",
+          "wesbite":"https://reading.ecb.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Games, quizzes and fact sheets take kids on a journey through time.",
+          "wesbite":"https://www.bbc.co.uk/history/forkids/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Geography and animals",
+          "wesbite":"https://kids.nationalgeographic.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Geometry",
+          "wesbite":"https://www.canfigureit.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Get your kids listening to various stories for free via Audible Stories",
+          "wesbite":"https://stories.audible.com/start-listen",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"Golds Gym is offering free access to its app, Goldsamp, until the end of May",
+          "wesbite":"https://www.goldsgym.com/anywhere/",
+          "type":"Fitness"
+       },
+       {
+          "description":"GoNoodle has free games for kids to keep them moving and thinking. Great for indoor recess, home school, etc.",
+          "wesbite":"https://www.gonoodle.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Grammar practice for middle grades",
+          "wesbite":"https://www.classroomcereal.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Guide to gardening for kids",
+          "wesbite":"https://web.extension.illinois.edu/firstgarden/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Hands on Elem science videos",
+          "wesbite":"https://www.backpacksciences.com/science-simplified",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Helps kids learn to appreciate the arts by providing them with the opportunity to play games, conduct investigations, and explore different forms of art.",
+          "wesbite":"https://artsology.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"High school chemistry topics",
+          "wesbite":"https://www.acs.org/content/acs/en/education/resources/highschool/chemmatters/articles-by-topic.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Higher level math series… online video series with detailed solutions to more than a thousand publicly-released College Board SAT Math, Subject Test Math Level 1, and Subject Test Math Level 2 problems.",
+          "wesbite":"https://www.youtube.com/channel/UCbQoCpvYRYRkRRvsObOPHaA?reload=9",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Hundreds of printable educational worksheets for free.",
+          "wesbite":"https://www.worksheetfun.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Illustrated recipes designed to help kids age 2-12 cook with their grown-ups. Recipes encourage culinary skills, literacy, math, and science.",
+          "wesbite":"https://www.nomsterchef.com/nomster-recipe-library",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Immerse yourself in cryptography ",
+          "wesbite":"https://www.cryptoclub.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Improve your typing skills while competing in fast-paced races with up to 5 typers from around the world.",
+          "wesbite":"https://www.nitrotype.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Indoor Activities for busy toddlers",
+          "wesbite":"https://busytoddler.com/2020/03/indoor-activities/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Innerbody explores the 11 bodily systems in depth. With interactive models and detailed explanations, this website will help them learn more about the internal mechanics of the amazing human body.",
+          "wesbite":"https://www.innerbody.com/htm/body.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Interactive games based on the book series ",
+          "wesbite":"https://www.magictreehouse.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Interactive video earth science based curriculum supplement.",
+          "wesbite":"https://www.everyday-earth.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",
+          "wesbite":"https://www.musictheory.net/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Jamm is a video call platform that’s offering 4 months for free",
+          "wesbite":"https://jammhq.typeform.com/to/m0mbZw",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"JetBlue: JetBlue has suspended change and cancel fees for all new flight bookings made between March 6, 2020 and March 31, 2020 for travel through September 8, 2020. The change/cancel fees suspension still applies for bookings made between February 27, 2020 and March 5, 2020 for travel through June 1, 2020.",
+          "wesbite":"",
+          "type":"Major Domestic Airlines"
+       },
+       {
+          "description":"Just explore, have fun, and learn some science along the way. ",
+          "wesbite":"https://thehappyscientist.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"K-5 curriculum that builds deep understanding and a love of learning math for all students",
+          "wesbite":"https://www.zearn.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"K-5th Science lessons",
+          "wesbite":"https://mysteryscience.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"K-8 online math program that looks at how a student is solving problems to adjust accordingly and build a unique learning path for them.",
+          "wesbite":"https://www.dreambox.com/at-home",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Karate online training for kids",
+          "wesbite":"https://www.karatelessonsonline.com/](https://www.karatelessonsonline.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Keyboarding practice",
+          "wesbite":"https://www.typing.com/ or https://www.typingclub.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Kid-friendly workouts — choose from Strength for Kids, Agility for Kids, Flexibility and Balance for Kids, Warm-Up for Kids, Cooldown for Kids, Stand Up and Move for Kids, OR create your own custom kid workout.",
+          "wesbite":"https://app.sworkit.com/collections/kids-workouts",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Kids Think Design explores careers in fashion design, graphic design, interior design, book design, product design, film and theatre, architecture, animation, and environmental design.",
+          "wesbite":"http://www.kidsthinkdesign.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"kinedu offers developmental activities for babies/infants and is currently offering its services for free",
+          "wesbite":"https://www.kinedu.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Learn all about cells ",
+          "wesbite":"https://www.cellsalive.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Learn all about earthquakes",
+          "wesbite":"https://earthquake.usgs.gov/learn/kids/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Learn all about the periodic table",
+          "wesbite":"https://www.chemicool.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Lets kids play instruments online. Instruments include the guitar, piano, pan flute, drums, and bongos.",
+          "wesbite":"https://www.virtualmusicalinstruments.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Life skills curriculum for students in grades K-12. Their resources include strategies for teaching social and emotional skills.",
+          "wesbite":"https://www.overcomingobstacles.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"LinkedIn is offering several very informative courses for free. Courses on time management, productivity tips, managing stress, learning various video platforms and software & more!",
+          "wesbite":"https://www.linkedin.com/learning/paths/remote-working-setting-yourself-and-your-teams-up-for-success?u=104",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Lunch doodles with Mo Willems every weekday at 1PM ET. Recorded drawing sessions for kids, about 20 min each",
+          "wesbite":"https://www.kennedy-center.org/education/mo-willems/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Magic Spell is a carefully crafted spelling",
+          "wesbite":"adventure. https://brainbox.games",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Many states (New York included) and mortgage companies are offering 1 to 6 months of no mortgage payment requirements. Contact your mortgage provider to see what they’re offering and if you qualify.",
+          "wesbite":"",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Math and language games",
+          "wesbite":"https://www.arcademics.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math and logic problems for ages 5 and up to adult",
+          "wesbite":"https://www.aplusclick.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math and reading games",
+          "wesbite":"https://www.abcya.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math and Reading games",
+          "wesbite":"https://www.funbrain.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math as a fun part of your daily family routine",
+          "wesbite":"http://bedtimemath.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math games galore",
+          "wesbite":"https://gridclub.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math Games, Logic Puzzles and Brain Builders",
+          "wesbite":"https://www.mathplayground.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math practice from counting to algebra and geometry",
+          "wesbite":"http://www.mathscore.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math practice",
+          "wesbite":"https://xtramath.org/#/home/index",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Math Videos with lessons, real life uses of math, famous actors ",
+          "wesbite":"https://www.hmhco.com/math-at-work",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"McHarper Manor is offering free daily arts and crafts classes",
+          "wesbite":"https://www.facebook.com/McHarperManor/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"MeeroDrop is a visual content sharing site that’s now offering large file transfers for free. You’ll be able to access these files for 3 months for free.",
+          "wesbite":"https://www.meerodrop.com/en/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Mint Mobile: New and existing customers can get Unlimited 4G LTE Data for free.",
+          "wesbite":"https://www.mintmobile.com/unlimited/?",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Miscellaneous games for all subjects k-8",
+          "wesbite":"https://www.funbrain.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Modern States is offering Freshman Year for Free. Take tuition-free, high quality courses online from top institutions for college credit.",
+          "wesbite":"https://modernstates.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Movement and mindfulness videos created by child development experts.",
+          "wesbite":"https://www.gonoodle.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Music is for everyone ",
+          "wesbite":"https://musiclab.chromeexperiments.com/Experiments",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Music practice transformed",
+          "wesbite":"https://www.smartmusic.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"National Geographic Young Explorers is a magazine designed specifically for kindergarten and first grade students. Children can listen to the magazine being read to them as they follow along with the highlighted text.",
+          "wesbite":"https://ngexplorer.cengage.com/ngyoungexplorer/index.html",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"NBA League Pass will be offered for free thru April 22nd.",
+          "wesbite":"https://www.nba.com/nba-fan-letter-league-pass-free-preview",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"News and more for kids ",
+          "wesbite":"https://www.youngzine.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Next Generation Science video game focused on middle school where students directly engage in science phenomena as they solve problems.",
+          "wesbite":"https://www.tytoonline.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"NFL will offer fans free access to NFL Game Pass for the next 2 months!",
+          "wesbite":"http://www.nfl.com/news/story/0ap3000001106855/article/nfl-offers-fans-free-access-to-nfl-game-pass",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"NGAkids interactives offer an entertaining and informative introduction to art and art history.",
+          "wesbite":"https://www.nga.gov/education/kids.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Nike Is Offering Free Workouts on Its NTC App as the Coronavirus Forces People Inside",
+          "wesbite":"https://www.yahoo.com/lifestyle/nike-offering-free-workouts-ntc-191253078.html",
+          "type":"Fitness"
+       },
+       {
+          "description":"No need to travel to one of the Smithsonian’s zoos or museums — this website brings your child everything from live video of the National Zoo to the Smithsonian Learning Lab right to their screen",
+          "wesbite":"https://www.si.edu/kids",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Novel Effect makes storytime a little more fun for kids (and grown-ups too!) As you read out loud from print books (or ebooks!) music, sound effects, and character voices play at just the right moment, adjusting and responding to your voice",
+          "wesbite":"https://noveleffect.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online curriculum that builds better writers.",
+          "wesbite":"https://www.noredink.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online digital coloring pages",
+          "wesbite":"https://www.thecolor.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online education program for toddler through high school…",
+          "wesbite":"https://www.khanacademy.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online history classes for all ages preteen through adults",
+          "wesbite":"https://school.bighistoryproject.com/bhplive",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online homeschool platform & curriculum for Pre-K to 12th grade. All main subjects are covered, plus extra curriculum courses.",
+          "wesbite":"http://discoveryk12.com/dk12/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Online photograph jigsaw puzzles You can set the pieces from 6-1000+",
+          "wesbite":"https://www.jigsawexplorer.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Peleton is offering an extended 90-day free trial to its at-home workouts application during the quarantine. The in-app workouts don’t require you own any Peloton equipment, and include yoga, HIIT, stretching, and other categories. Download the Peleton app for free in the App Store or Play Store.",
+          "wesbite":"https://www.marketwatch.com/story/free-workouts-from-peloton-nike-and-others-to-help-you-stay-active-during-your-quarantine-2020-03-27",
+          "type":"Fitness"
+       },
+       {
+          "description":"Phonics and learning to read ",
+          "wesbite":"https://readingeggs.com",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Phonics skills ",
+          "wesbite":"https://www.starfall.com/h/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Phonics worksheets for kids",
+          "wesbite":"https://www.funfonix.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Pinna is a streaming service for podcasts, music, and audiobooks for kids ages 3-12 and is offering a free 60 days",
+          "wesbite":"https://pinna.fm/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Planet Fitness is offering Free in-home workouts for everyone. Workouts will be led by trainers and surprise celebrity guests. If you miss the live class, you can come back and watch it later.",
+          "wesbite":"https://www.wmur.com/article/planet-fitness-offering-daily-free-livestreamed-fitness-classes-to-assist-social-distancing/31792493",
+          "type":"Fitness"
+       },
+       {
+          "description":"Play games and learn all about animals",
+          "wesbite":"https://switchzoo.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Play with fave show characters and learn too",
+          "wesbite":"https://pbskids.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Plex Makes Live TV Free for 3 Months",
+          "wesbite":"https://www.entrepreneur.com/article/348267",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Poetry and music",
+          "wesbite":"https://www.thewell.world/mindful-music/mindful-poetry-moments",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"PreK – 5 games for all subjects",
+          "wesbite":"https://www.turtlediary.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"PreK-12 digital media service with more than 30,000 learning materials",
+          "wesbite":"https://www.pbslearningmedia.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Printable board games, activities and more for phonics and reading all using evidence-based methods. Can be customized to any student’s needs including creating flashcards for other subjects.",
+          "wesbite":"https://dogonalogbooks.com/printables/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Prodigies is a colorful music curriculum for kids 1-12 that will teach your kids how to play their first instrument, how to sing in tune & how to understand the language of music! 21 for free",
+          "wesbite":"https://prodigiesmusic.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Prodigy Math has free video game style math learning and questions. ",
+          "wesbite":"https://www.prodigygame.com/ ",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Prodigy Math has free video game style math learning and questions.",
+          "wesbite":"https://www.prodigygame.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"QuaverMusic is offering free access to general music activities to all impacted schools, including free student access at-home",
+          "wesbite":"https://www.quavermusic.com/info/at-home-resources/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Quick & easy at home projects curated for kids 2 and up",
+          "wesbite":"https://www.kiwico.com/kids-at-home",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Randomly generates 356,300,262,144 story starters",
+          "wesbite":"https://thestorystarter.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Read, play games, and hang out with Dr. Seuss",
+          "wesbite":"https://www.seussville.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Reading passages for grades 3-12, with reading comprehension and discussion questions.",
+          "wesbite":"https://www.commonlit.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"ReadWorks is an online resource of reading passages and lesson plans for students of all levels K-12.",
+          "wesbite":"https://www.readworks.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Resource of learning materials and work sheets on Google Drive",
+          "wesbite":"https://drive.google.com/drive/u/0/folders/1hCIG-PgDCvlpqPiHAmpxsOHP8KMDMPlg",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"Resource section includes free flashcards, coloring pages, worksheets, and other resources for children, teachers, and parents.",
+          "wesbite":"https://supersimple.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Resources for AP students including live reviews, live trivia, and study guides!",
+          "wesbite":"https://app.fiveable.me/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Resources for AP",
+          "wesbite":"students https://marcolearning.com",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Resources for Spanish practice ",
+          "wesbite":"https://www.difusion.com/campus/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Scads of free resources, games, learning resources, and lesson plans for teaching personal finance",
+          "wesbite":"https://www.ngpf.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Scholastic has setup a “learn from home” website which will offer free daily courses for kids stuck at home because of school cancellations.",
+          "wesbite":"https://classroommagazines.scholastic.com/support/learnathome.html",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Science and math labs and simulations",
+          "wesbite":"https://phet.colorado.edu/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Science podcasts to listen to with your kids",
+          "wesbite":"https://medium.com/kidslisten/19-great-science-podcasts-you-can-listen-to-with-kids-6fe46ac506b8#.rb23iuaw6",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Science projects that can be completed with or without Internet access https://sciencespot.net/Pages/classhome html",
+          "wesbite":"(https://sciencespot",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Science simulations, scientist profiles, and other digital resources for middle school science and high school biology",
+          "wesbite":"https://sepuplhs.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Science, Math, Social Studies",
+          "wesbite":"https://www.ck12.org/student/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Scratch draws students of all types into coding and lays a foundation for future learning.",
+          "wesbite":"https://scratch.mit.edu/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Short videos about numbers that help kids explore complex math topics and make math more fun.",
+          "wesbite":"https://www.numberphile.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Short videos and readings that answer various burning questions for students. There are vocabulary challenges and comprehension questions.",
+          "wesbite":"http://wonderopolis.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Sight reading and sight singing practice exercises.",
+          "wesbite":"https://www.sightreadingfactory.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Some leasing companies are offering to push off payments for 1 to 3 months. In return, they’ll extend your lease by that amount of time and have you pay regular payments then, essentially giving you an extra 1 to 3 months for free. Your max miles for the lease though will remain the same. Contact your auto see what they’re offering.",
+          "wesbite":"",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Southwest: They always offer free flight changes so nothing changes for them. Any difference in fare will apply.",
+          "wesbite":"",
+          "type":"Major Domestic Airlines"
+       },
+       {
+          "description":"Space Racers was created by NASA to teach kids STEAM... uhm... stuff!",
+          "wesbite":"https://www.spaceracers.com/grownups/) was created by NASA to teach kids STEAM... uhm... stuff!",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Space science for kiddos",
+          "wesbite":"https://www.nasa.gov/kidsclub/index.html",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Spelling 1-4 grade",
+          "wesbite":"https://www.spellingtraining.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Spellingcity is free right now with code VSCFree90",
+          "wesbite":"https://www.spellingcity.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Spider-Man will send your child a free voice message",
+          "wesbite":"https://deadline.com/2020/03/spider-man-spider-verse-actor-free-voice-messages-peter-parker-quarantined-kids-1202888400/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"Sprint is offering unlimited data for all users and waiving late fees for next 30-60 days",
+          "wesbite":"",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Starbucks will give a free tall hot or iced brewed coffee to anyone that identifies themselves as a front line responder from today through May 3rd",
+          "wesbite":"",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Starting Friday, the National Hockey League is making all games played during the suspended 2019-2020 regular season",
+          "wesbite":"https://www.nhl.com/news/nhl-to-keep-fans-connected-during-pause/c-316219230",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Storytime Froooom Space",
+          "wesbite":"https://storytimefromspace.com/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"T-Mobile & Metro Active Customers: All current T-Mobile and Metro by T-Mobile customers who have plans with data will have unlimited smartphone data for the next 60 days (excluding roaming).",
+          "wesbite":"https://www.t-mobile.com/news/t-mobile-update-on-covid-19-response?",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"T-Mobile is offering all current customers unlimited data and waiving late fees for next 30-60 days",
+          "wesbite":"",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Teaches students how to write a paragraph through interactive online tutorial",
+          "wesbite":"http://www.paragraphpunch.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Test Prep for SAT, ACT, etc.",
+          "wesbite":"https://www.bwseducationconsulting.com/handouts.php",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Tests kids’ geography skills. Using images from Google’s Street View, it plops players down in the middle of the street and asks them to figure out where they are.",
+          "wesbite":"https://www.geoguessr.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"The Athletic",
+          "wesbite":"https://theathletic.com/1669234/2020/03/16/covid-19-and-sports-latest-news-and-information-updated/",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"The Guardian",
+          "wesbite":"https://www.theguardian.com/world/coronavirus-outbreak",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"The Los Angeles Times",
+          "wesbite":"https://www.latimes.com/california/liveblog/coronavirus-live-updates",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"The New York Times",
+          "wesbite":"https://www.nytimes.com/news-event/coronavirus",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"The San Diego Zoo has a website just for kids with amazing videos, activities, and games. Enjoy the tour!",
+          "wesbite":"https://kids.sandiegozoo.org/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"The Shurley English program for grades K-8 provides a clear, logical, and concrete approach to language arts.",
+          "wesbite":"https://www.shurley.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"The Theta Music Trainer offers a series of online courses and games for ear training and music theory.",
+          "wesbite":"https://trainer.thetamusic.com/en",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"The Washington Post",
+          "wesbite":"https://www.washingtonpost.com/coronavirus/",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"This Canadian site FarmFood 360 offers 11 Virtual Tours of farms from minks, pigs, and cows, to apples and eggs.",
+          "wesbite":"https://www.farmfood360.ca/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"This educational website hosted by the Smithsonian Museum takes a deep dive into ocean life.",
+          "wesbite":"https://ocean.si.edu/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"This interactive website, hosted by the U.S. Government Publishing Office, allows your child to see the ins and outs of the U.S. government by taking a series of learning adventures with none other than Benjamin Franklin.",
+          "wesbite":"https://bensguide.gpo.gov/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"This NASA initiative covers a wide range of topics including weather, climate, atmosphere, water, energy, plants, and animals.",
+          "wesbite":"https://climatekids.nasa.gov/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"This Virtual Tour of the Great Wall of China is beautiful and makes history come to life.",
+          "wesbite":"https://www.thechinaguide.com/destination/great-wall-of-china",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Toddler and preschool age",
+          "wesbite":"(https://preschoolinspirations.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Tons and tons and tons of games some learning some just fun",
+          "wesbite":"https://www.crazygames.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Tons of free classes from leading universities and companies",
+          "wesbite":"https://www.coursera.org/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Tour Yellowstone National Park!",
+          "wesbite":"https://www.nps.gov/yell/learn/photosmultimedia/virtualtours.htm",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Travel to Paris, France to see amazing works of art at The Louvre with this virtual field trip.",
+          "wesbite":"https://www.louvre.fr/en/visites-en-ligne",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"U-Haul is offering college students 30 days of free storage.",
+          "wesbite":"https://www.uhaul.com/Articles/About/20625/College-Students-U-Haul-Offers-30-Days-Free-Self-Storage-amid-Coronavirus-Outbreak/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Uber Eats will waive delivery fees on all orders amid the quarantine. Service charges will still apply though.",
+          "wesbite":"https://www.cnet.com/news/uber-eats-waives-delivery-fees-amid-coronavirus-outbreak/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"United: When you book a flight between March 3 and March 31, 2020, you can change it for free over the next 12 months. Any difference in fare will apply",
+          "wesbite":"",
+          "type":"Major Domestic Airlines"
+       },
+       {
+          "description":"Unity learn is giving away free unity learn premium for 3 month",
+          "wesbite":"https://learn.unity.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Various arts and crafts, lessons and more for free from Crayola",
+          "wesbite":"https://created.crayola.com/homelearning",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Verizon has added 15GB of data to plans at No Charge for use from 3/25-4/30.",
+          "wesbite":"http://m.vzw.com/m/covid19faqs",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Verizon waiving activation and upgrade fees when you purchase through the following channels listed on site",
+          "wesbite":"https://www.verizonwireless.com/support/covid-19-faqs/",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Verizon: Verizon will waive late fees and keep residential and small business customers connected if negatively impacted by global crisis.",
+          "wesbite":"https://www.verizon.com/about/news/verizon-help-customers-and-small-businesses",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Vocabulary, grammar, listening activities and games in Spanish, French, Italian, German, Portuguese, Korean, and Latin.",
+          "wesbite":"https://conjuguemos.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Voice based learning… learn through Alexa",
+          "wesbite":"https://bamboolearning.com/resources",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Wall Street Journal",
+          "wesbite":"https://www.wsj.com/news/collection/coronavirus0312-256f2943",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"Website allows students to play basic games to reinforce math skills and compete against the computer or others",
+          "wesbite":"https://www.mangahigh.com/en-us/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Work on the 8 parts of speech",
+          "wesbite":"https://www.grammaropolis.com/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"WSECU is offering free skip a pay, fees waived, emergency loans",
+          "wesbite":"https://wsecu.org/resources/covid-19-member-updates",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"Your child can play games, learn fun facts, and find out how to turn coin collecting into a hobby.",
+          "wesbite":"https://www.usmint.gov/learn/kids",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Zoom Video is offering free video conferences for schools.",
+          "wesbite":"https://zoom.us/docs/ent/school-verification.html",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"WWE Network Is Free to Stream Amid Coronavirus Pandemic",
+          "wesbite":" https://www.yahoo.com/entertainment/wwe-network-free-stream-amid-223925136.html",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"A limited time offer of $15 for 2GB of data with unlimited talk and text will be available to new and existing customers with no activation fee. To get started on the $15 limited time offer",
+          "wesbite":"www.att.com/prepaid",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"An automatic 10GB per month of additional data for 60 days is being added temporarily to existing customers’ capped phone plans and for new customers who activate capped phone plans prior to April 26. [1] New customers activating capped phone plans after April 26 will temporarily receive an extra 10 GB of additional data for 30 days.",
+          "wesbite":"https://www.wafb.com/2020/03/26/att-cricket-wireless-offering-special-deals-customers-amid-covid-pandemic/",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Customers with an Unlimited Plus plan with Mobile Hotspot data and new customers who activate on the Unlimited Plus plan prior to April 26 will temporarily receive 10GB of additional Mobile Hotspot per month for 60 days. New customers who activate after April 26 will temporarily receive an additional 10GB of data for 30 days.",
+          "wesbite":"https://www.wafb.com/2020/03/26/att-cricket-wireless-offering-special-deals-customers-amid-covid-pandemic/",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"The Internet Archive released the National Emergency Library that gives be public free access to over 1.4 million digital books.",
+          "wesbite":"https://archive.org/details/nationalemergencylibrary",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Free sweetgreen for hospital workers and medical personnel",
+          "wesbite":"https://www.instagram.com/p/B9zwnDmDHyf/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Work in a hospital? Stop by your local &Pizza restaurant for a free pizza. All you have to do is present a valid staff ID. Can't leave work? Text 200-03 #HERO to get your pie delivered.",
+          "wesbite":"https://andpizza.com/tribefirst/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Starting tomorrow, March 14 - April 26, we'll be offering FREE DELIVERY on kfc.com",
+          "wesbite":"https://www.instagram.com/p/B9rsTpmH9Tm/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Chipotle free delivery through the end of March. Any questions?",
+          "wesbite":"https://www.instagram.com/p/B9whXysJ275/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"It's MOE MONDAY ALL WEEK LONG with free delivery right to your home",
+          "wesbite":"https://twitter.com/Moes_HQ/status/1239622272161402880?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1239622272161402880&ref_url=https%3A%2F%2Fwww.today.com%2Ffood%2Ffood-companies-give-away-meals-medical-workers-offer-free-delivery-t176164",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Blaze Pi Day reward to all app users through the Blaze app, redeemable in-restaurant or online expiring 12/31/2020",
+          "wesbite":"https://hq.blazepizza.com/promos/piday314",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"Headspace, the most popular meditation app, is offering a free subscription to ALL HEALTHCARE PROFESSIONALS",
+          "wesbite":"https://apps.apple.com/us/app/headspace-meditation-sleep/id493145008",
+          "type":"Fitness"
+       },
+       {
+          "description":"Ten Percent Happier is offering free accounts for you guys",
+          "wesbite":"https://www.tenpercent.com/coronavirussanityguide",
+          "type":"Fitness"
+       },
+       {
+          "description":"McDonalds is offering free coffee to healthcare workers",
+          "wesbite":"https://mashable.com/article/mcdonalds-pret-free-drinks-healthcare-workers/",
+          "type":"Food / Misc"
+       },
+       {
+          "description":"If you have internet access you can watch all local television channels for free with this not-for-profit service: https://www.locast.org/ This free streaming service is available for the cities of Seattle, San Francisco, Los Angeles, Phoenix, Denver, Rapid City, Sioux Falls, Sioux City, Chicago, Dallas, Houston, Atlanta, Washington D.C., Baltimore, Philadelphia, New York, and Boston",
+          "wesbite":"https://www.locast.org/",
+          "type":"Phone and Internet"
+       },
+       {
+          "description":"Startup based in Dublin offering over 10 courses for free on our online platform to teach kids how to code",
+          "wesbite":"https://www.roblogify.com/virtual-robotics-in-covid-19-making-our-courses-free/",
+          "type":"Educational / Fun Resources"
+       },
+       {
+          "description":"Small Business Guidance and Loan Resources",
+          "wesbite":"https://www.sba.gov/page/coronavirus-covid-19-small-business-guidance-loan-resources",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Service Workers",
+          "wesbite":"https://ofwemergencyfund.org/help",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for those in Student Loan Crisis",
+          "wesbite":"https://crisishelp.bysavi.com/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Bartenders",
+          "wesbite":"https://www.usbgfoundation.org/beap",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Restaurant Workers",
+          "wesbite":"https://rocunited.org/stop-the-spread/coronavirus-support/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Musicians",
+          "wesbite":"https://equalsound.org/musicians-corona-relief-fund-application/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Authors",
+          "wesbite":"https://authorsleaguefund.org/apply/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for CoVid-19 Positive tested Restaurant Workers",
+          "wesbite":"https://calrestfoundation.org/restaurantscare/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Domestic Workers",
+          "wesbite":"https://domesticworkers.org/coronavirus-care-fund",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Freelance Artists",
+          "wesbite":"https://covid19freelanceartistresource.wordpress.com/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for our Military and Families",
+          "wesbite":"https://www.militaryonesource.mil/financial-legal/personal-finance/borrowing/coronavirus-financial-assistance",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance to all Veterans, Active Duty, Reserves and National Guard",
+          "wesbite":"https://penfedfoundation.org/apply-for-assistance/coronavirus-emergency-financial-assistance/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Assistance for Painters, Printmakers, and Sculptors",
+          "wesbite":"https://www.gottliebfoundation.org/emergency-grant",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Capital One is offering many of the same suggestions, but added a “Frequently Asked Questions” page that deals with concerns that come up early in the virus crisis, most of them dealing with cancelled travel plans.",
+          "wesbite":"https://www.capitalone.com/coronavirus/2/",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"CitiBank instituted a 30-day program that started March 9 for its retail customers to waive monthly service fees and penalties for early CD withdrawals. Citi’s small business customers also get monthly service fees and remote deposit capture fees waived as well as waived penalties for early CD withdrawal.",
+          "wesbite":"https://online.citi.com/US/JRS/pands/detail.do?ID=covid19",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"U.S. Bank is offering two loans for personal accounts that may provide short-term solutions.",
+          "wesbite":"https://www.usbank.com/splash/covid-19.html",
+          "type":"Credit Cards/Finance"
+       },
+       {
+          "description":"USDA FNS Disaster Assistance",
+          "wesbite":"https://www.fns.usda.gov/disaster/pandemic/covid-19",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"United Way's COVID-19 Community Response and Recovery Fund",
+          "wesbite":"https://www.unitedway.org/recovery/covid19?utm_source=fundpage&utm_medium=web&utm_campaign=covid19&utm_content=learnmore",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Catholic Charities USA",
+          "wesbite":"https://www.catholiccharitiesusa.org/find-help/",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"Covid-19 State by State",
+          "wesbite":"https://www.usbg.org/help/covid-19-state-by-state",
+          "type":"Emergency Assistance"
+       },
+       {
+          "description":"All of 'Battlestar Galactica' has been made free to view on SyFy's website",
+          "wesbite":"https://www.syfy.com/battlestargalactica",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"PBS KIDS Offers Free Resources During COVID-19 School Closures",
+          "wesbite":"https://www.animationmagazine.net/internet/pbs-kids-offers-free-resources-during-covid-19-school-closures/",
+          "type":"Stuff For Kiddos"
+       },
+       {
+          "description":"SiriusXM, Howard Stern announce free access to streaming content through May 15",
+          "wesbite":"https://thehill.com/homenews/media/490342-siriusxm-howard-stern-announce-free-access-to-streaming-content-through-may-15",
+          "type":"No Paywalls"
+       },
+       {
+          "description":"United Way of the Central Carolinas is providing relief to non-profits affected by the virus",
+          "wesbite":"https://app.mobilecause.com/vf/HELPCharMeck",
+          "type":"Emergency Assistance"
+       }
     ]
-}
+ }
