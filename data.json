@@ -1534,6 +1534,31 @@
           "description":"United Way of the Central Carolinas is providing relief to non-profits affected by the virus",
           "wesbite":"https://app.mobilecause.com/vf/HELPCharMeck",
           "type":"Emergency Assistance"
-       }
+       },
+       {
+            "description":"Sling TV Stay in and Sling 1000s of movies and shows for kids and families",
+            "wesbite":"https://www.cordcuttersnews.com/sling-tv-launches-stay-in-sling-for-free-news-and-entertainment/",
+            "type":"No Paywalls"
+        },
+        {
+            "description":"If you like Opera - this is for you! Steaming for free encore presentations",
+            "wesbite":"https://www.metopera.org/",
+            "type":"No Paywalls"
+        },
+        {
+            "description":"Some of the best filmed Broadway shows to know about and where to find them (15 offerings)",
+            "wesbite":"https://www.playbill.com/article/15-broadway-plays-and-musicals-you-can-watch-on-stage-from-home",
+            "type":"No Paywalls"
+        },
+        {
+            "description":"Music- Seattle Symphony are offering free broadcasts via YouTube and Facebook. Currently programs scheduled for March 26th at 7:30 pm and March 28th at 8 pm with additional free broadcasts to be scheduled",
+            "wesbite":"https://seattlesymphony.org/live",
+            "type":"No Paywalls"
+        },
+        {
+            "description":"Rumble Training on Instagram",
+            "wesbite":"https://www.instagram.com/stories/doyourumble/",
+            "type":"Fitness"
+        } 
     ]
  }
