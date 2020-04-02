@@ -1559,6 +1559,11 @@
             "description":"Rumble Training on Instagram",
             "website":"https://www.instagram.com/stories/doyourumble/",
             "type":"Fitness"
-        } 
+        },
+        {
+         "description":"Udemy is offering 150 free classes during this time.",
+         "website":"https://www.udemy.com/courses/free/",
+         "type":"Educational / Fun Resources"
+      } 
     ]
  }
