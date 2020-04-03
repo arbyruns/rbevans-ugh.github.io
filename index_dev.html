@@ -41,10 +41,11 @@
 	<script src="dist/js/tabulator.min.js"></script>
   </head>
   <body>
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <!-- Nav Bar -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                  <a class="navbar-brand" href="#">
+                    Coronawhatnow</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -56,13 +57,13 @@
                   </div>
                 </div>
                 </nav>
-    <div class="jumbotron text-center">
-      <div class="container">
-        <h1>COVID-19 Resource Directory</h1>
-        <p>A complete list of free resources and companies that are offering waived fees during COVID-19 pandemic.</p>
-        <span class="badge badge-success">Last Update: 04/03/2020 - 10:16 Eastern</br>Total Resources: 315</span>
-      </div>
-    </div>
+          <div class="jumbotron text-center">
+            <div class="container">
+                <img src="src/img/logo.png" width=20% alt="">
+              <h1>Coronavirus is impacting your life. What now?</h1>
+              <p>This a free, open, and collaborative website for collecting actionable resources for people and businesses affected by coronavirus aka COVID-19.</p>
+            </div>
+          </div>
       <div class="container">
       <!-- tabulator -->
       <div id="tabulator-controls" class="table-controls">
@@ -83,13 +84,13 @@
   
       var table = new Tabulator("#tabulator-example", {
         height:800,
-        groupBy:"type",
+        groupBy:["type", "state"],
         groupToggleElement:"header",
         groupStartOpen:false,
         ajaxConfig:{
           method: 'GET'
           },
-        ajaxURL:"data.json",
+        ajaxURL:"sampledata.json",
         data:tabledata,
         layout:"fitDataStretch",
         autoResize:true,
@@ -103,6 +104,7 @@
         {title:"Description", field:"description", width:300, formatter:"textarea", responsive:0},
         {title:"Website", field:"website", width:400,align:"center", formatter:"link", formatterParams:{target:"_blank" }},
         {title:"Type", field:"type", width:100,align:"center", formatter:"textarea"},
+        {title:"State", field:"state", width:100,align:"center", formatter:"textarea"},
         ],
 
 	  ajaxResponse:function(url, params, response){
