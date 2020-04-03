@@ -1564,6 +1564,16 @@
          "description":"Udemy is offering 150 free classes during this time.",
          "website":"https://www.udemy.com/courses/free/",
          "type":"Educational / Fun Resources"
-      } 
+      },
+      {
+       "description":"HBO Will Stream 500 Hours of Free Programming, Including Full Seasons of ‘Veep,’ ‘The Sopranos,’ ‘Silicon Valley’",
+       "website":"",
+       "type":"No Paywall"
+    },
+    {
+     "description":"The Best ’80s Cartoons Are Streaming Free On YouTube Now",
+     "website":"https://geekculture.co/the-best-80s-cartoons-are-streaming-free-on-youtube-now/",
+     "type":"No Paywall"
+  }    
     ]
  }
