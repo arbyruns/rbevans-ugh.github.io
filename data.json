@@ -1574,6 +1574,22 @@
      "description":"The Best ’80s Cartoons Are Streaming Free On YouTube Now",
      "website":"https://geekculture.co/the-best-80s-cartoons-are-streaming-free-on-youtube-now/",
      "type":"No Paywalls"
-  }    
+  },
+  {
+   "description":"Assistance for Small Businesses",
+   "website":"https://home.treasury.gov/policy-issues/top-priorities/cares-act/assistance-for-small-businesses",
+   "type":"Emergency Assistance"
+},
+{
+ "description":"Coronavirus Emergency Loans Small Business Guide and Checklist",
+ "website":"https://www.scchamber.net/sites/default/files/Public_Policy/COVID19/uschamber_small_business_ela_loan_guide_0.pdf",
+ "type":"Emergency Assistance"
+},
+{
+ "description":"Interim Guidance for Businesses and Employers to Plan and Respond to Coronavirus Disease 2019",
+ "website":"https://www.cdc.gov/coronavirus/2019-ncov/community/guidance-business-response.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fspecific-groups%2Fguidance-business-response.html",
+ "type":"Emergency Assistance"
+}    
+   
     ]
  }
