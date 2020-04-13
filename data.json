@@ -1589,7 +1589,21 @@
  "description":"Interim Guidance for Businesses and Employers to Plan and Respond to Coronavirus Disease 2019",
  "website":"https://www.cdc.gov/coronavirus/2019-ncov/community/guidance-business-response.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fspecific-groups%2Fguidance-business-response.html",
  "type":"Emergency Assistance"
-}    
-   
+},
+{
+ "description":"Get free access to 7,000+ expert-led video courses",
+ "website":"https://www.pluralsight.com/offer/2020/free-april-month",
+ "type":"Educational"
+},
+{
+ "description":"Personalized meditation audio program; free one year subscription",
+ "website":"https://www.balanceapp.com/",
+ "type":"Fitness"
+},
+{
+ "description":"AT&T is giving three months of FirstNet service to nurses and physicians for free",
+ "website":"https://www.prnewswire.com/news-releases/att-to-support-nurses-and-physicians-with-three-months-of-free-service-on-firstnet-network-301039168.html",
+ "type":"Phone and Internet"
+}           
     ]
  }
